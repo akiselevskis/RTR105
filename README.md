@@ -14,7 +14,7 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade[^1]
 
 
 
->Klade
+>Lai atvērtu Linux termināli -> Ctrl + Alt + T.
     
 Informācija, lai noformētu lapu: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax.
 
