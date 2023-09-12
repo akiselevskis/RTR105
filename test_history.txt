@@ -1,0 +1,21 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  who
+    4  whois who
+    5  mans_pirmais_shell_skripts.sh
+    6  ls
+    7  cd mans_pirmais_shell_skripts.sh
+    8  cat mans_pirmais_shell_skripts.sh
+    9  chmod 754 mans_pirmais_shell_skripts.sh
+   10  mans_pirmais_shell_skripts.sh
+   11  pwd
+   12  ls
+   13  man sh
+   14  man dash
+   15  man shell
+   16  ls
+   17  rm aa.txt
+   18  ls
+   19  ls -a
+   20  ls -la
+   21  history > test_history.txt
