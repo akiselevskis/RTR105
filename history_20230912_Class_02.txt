@@ -1,0 +1,159 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  help
+    4  whoami
+    5  who
+    6  pwd
+    7  ls
+    8  man ls
+    9  man ls -r
+   10  ls -r
+   11  man -k
+   12  man -n
+   13  man apropos
+   14  ls -l
+   15  man ls -l
+   16  ls -l -t
+   17  ls -al
+   18  ls -la
+   19  ls Desktop/
+   20  ls -la Desktop/
+   21  ls -la D
+   22  pwd
+   23  ls -la Documents
+   24  ls
+   25  ls Public
+   26  ls -la public
+   27  ls -la Public
+   28  ls /home
+   29  ls
+   30  tree
+   31  cd Music/
+   32  pwd
+   33  ls -la
+   34  pwd
+   35  cd .
+   36  pwd
+   37  cd ..
+   38  pwd
+   39  man cd
+   40  man cd .
+   41  cd Music/
+   42  cd ..
+   43  man pwd
+   44  man cd
+   45  man cd/
+   46  cd sc/
+   47  cd home/
+   48  cd /home
+   49  cd ..
+   50  ls
+   51  cd ..
+   52  ls
+   53  pwd
+   54  cd .
+   55  pwd
+   56  cd ..
+   57  cd /usr
+   58  cd ..
+   59  cd /home
+   60  ls
+   61  cd /user
+   62  cd ..
+   63  pwd
+   64  ls
+   65  cd .root
+   66  cd root
+   67  cd home
+   68  cd user
+   69  pwd
+   70  ls
+   71  cd..
+   72  cd ..
+   73  ls
+   74  cd ..
+   75  cd home
+   76  cd root
+   77  ls
+   78  cd ..
+   79  ls
+   80  cd root
+   81  cd home/
+   82  cd ..
+   83  cd ./home/
+   84  cd ./user/
+   85  cd ..
+   86  cd user
+   87  cd /home/user/test
+   88  cd ..
+   89  cd /home/user/
+   90  cd ..
+   91  cd
+   92  ls -lt
+   93  mkdir ABC
+   94  ls
+   95  cd ABC
+   96  ls -la
+   97  cd ..
+   98  cd
+   99  ls -lt
+  100  rmdir ABC
+  101  ls -la
+  102  ls -l
+  103  touch
+  104  touch abc.txt
+  105  ls -lt
+  106  echo La-La-La
+  107  echo 12345 > text_1.txt
+  108  history
+  109  ls -lt
+  110  cat text_1.txt
+  111  hexdump -C text_1.txt
+  112  echo 6789 >> text_1.txt
+  113  cat text_1.txt
+  114  h
+  115  cd
+  116  hexdump -C text_1.txt
+  117  man echo
+  118  echo "12345"
+  119  echo "12345\n45"
+  120  echo -e "12345\n45"
+  121  echo -e "12345\n45" > text_2.txt
+  122  ct text_2.txt
+  123  cat text_2.txt
+  124  man echo
+  125  ls
+  126  ls -lt
+  127  mkdir ABCD
+  128  rmdir ABCD
+  129  mkdir CDE
+  130  ls
+  131  pwd
+  132  cd CDE
+  133  cd
+  134  cp text_1.txt CDE/
+  135  ls CDE/
+  136  mc CDE/text_1.txt CDE/text_3.txt
+  137  c-o
+  138  C-O
+  139  C-o
+  140  help
+  141  10
+  142  1
+  143  histoy
+  144  history
+  145  mv CDE/text_1.txt CDE/text_3.txt
+  146  ls CDE/
+  147  cat text_3.txt
+  148  cat text_3.txt CDE/
+  149  cat /CDE text_3.txt
+  150  cd CDE
+  151  ls
+  152  cat text_3.txt
+  153  cd
+  154  rm text_*.txt
+  155  ls
+  156  ls a*c*d
+  157  ls a*.*
+  158  history
+  159  history > history_20230912_Class_02.txt
