@@ -44,9 +44,14 @@ Lielai daļai funkciju ir opcijas/atslēgas, kas maina funckcijas darbību. Term
       - rm text_*.txt will remove all variants of text_blank.text files, for example: text_1.txt and text_2.txt will be deleted.
       - **To be sure that no extra files are selected, it is recommended to use ls text_*.txt first)**
   1. History data can be pushed in a txt file. For example: history > history_20230912_Class_02.txt
+  1. hexdump -C (see hex information about files)
+  1. nano text.txt (create text.txt and open it in text editor Nano)
+  1. chmod 444 text.txt (edit permissions of the file text.txt. 444 means read, read read. 7 means write... it is decimal from binary)
+  1. script.sh is a script (sh. is an executable shell file. To launch it, say ./script.sh.) The first line has to be:
+     - !#/bin/sh
+  1. cp (copy smth)
 
 
-Vēl CP
 
 >Opcijas var apvienot un to secība nav svarīga. -l -a ir tas pats, kas -la, ir tas pats, kas -al...
 
