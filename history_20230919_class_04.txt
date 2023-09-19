@@ -1,0 +1,39 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls
+    4  echo "12345" >> script.sh
+    5  ls
+    6  ls -lat
+    7  ls *.sh -lat
+    8  nano script.sh
+    9  ./script.sh
+   10  man sudo
+   11  sudo ./script.sh
+   12  chmod 888 script.sh
+   13  chmod 844 script.sh
+   14  rm script.sh
+   15  ls
+   16  whoami
+   17  who
+   18  pwd
+   19  man git
+   20  git clone https://github.com/akiselevskis/RTR105
+   21  ls -lt
+   22  grep 105
+   23  ls -lt
+   24  ./RTR105/
+   25  cd ./RTR105/
+   26  ls
+   27  ls -lat
+   28  cd .git
+   29  ls -lat
+   30  cat info
+   31  cd info
+   32  ls
+   33  ls -lat
+   34  cat exclude
+   35  cd .
+   36  cd ..
+   37  pwd
+   38  history
+   39  history > history_20230919_class_04.txt
