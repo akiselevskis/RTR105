@@ -14,7 +14,7 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade[^1]
 
 >Lai atvērtu Linux termināli -> Ctrl + Alt + T.
 
-## 2.nodarbības "atziņas"
+## 2/3.nodarbības "atziņas"
 Lielai daļai funkciju ir opcijas/atslēgas, kas maina funckcijas darbību. Terminālī, kā arī šajās atziņās, šīs opcijas tiks apzīmētas -x veidā.
   1.  . un .. (ar punktiem apzīmē paslēptus dokumentus/mapes)
   1. ls (list directory contents):
@@ -51,11 +51,16 @@ Lielai daļai funkciju ir opcijas/atslēgas, kas maina funckcijas darbību. Term
      - !#/bin/sh
   1. cp (copy smth)
 
-
+  ## 4.nodarbības "atziņas" - git clone sasaiste
+  1. git
+  1. 
 
 >Opcijas var apvienot un to secība nav svarīga. -l -a ir tas pats, kas -la, ir tas pats, kas -al...
 
 >Katrai opcijai ir pilnā versija, kuru var izmantot priekšā rakstot divas "-" zīmes. Piemēram: -a ir tas pats, kas --all.
+
+
+3
 
 Informācija, lai noformētu lapu: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax.
 
