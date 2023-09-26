@@ -1,0 +1,94 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  man git
+    4  man grep
+    5  firefox &
+    6  git clone https://github.com/akiselevskis/RTR105
+    7  ls -lt
+    8  cd RTR105
+    9  ls -lt
+   10  pwd
+   11  mkdir Class_05
+   12  ls -lt
+   13  cd Class_05
+   14  nano
+   15  nano first.c
+   16  gcc first.c
+   17  ls -lt
+   18  ./a.out
+   19  echo $?
+   20  cat a.out
+   21  hexdump a.out
+   22  man hexdump
+   26  man gcc
+   27  gcc first.c -o first.out
+   28  ls -lt
+   29  rm * .out
+   30  rm *.out
+   31  ls -lt
+   32  ls -alt
+   33  nano first.c
+   34  /.first.c
+   35  gcc first.c
+   36  ls -lt
+   37  rm *.out
+   38  ls -lt
+   39  gcc first.c -o first.out
+   40  ls -lt
+   41  nano first.c
+   42  gcc first.c -o first.out
+   43  ls -lt
+   44  nano first.c
+   45  ./first.out
+   46  echo $?
+   47  man echo
+   48  ls -lt
+   49  nano first.c
+   50  gcc first.c -o first.out
+   51  echo $?
+   52  nano first.c
+   53  gcc first.c -o firstCom.out
+   54  ls -lt
+   55  diff first.out firstCom.out
+   56  echo &?
+   57  echo $?
+   58  nano first.c
+   59  cat first.c
+   60  cp first.c second.c
+   61  nano second.c
+   62  gcc second.c -o second.out
+   63  ls *.out
+   64  nano second.c
+   65  gcc second.c -o second.out
+   66  echo $?
+   67  ./second.out
+   68  nano second.c
+   69  ls *.out
+   70  rm *.out
+   71  ls -lt
+   72  m,na gcc
+   73  man gcc
+   74  gcc -Wall -save-temps second.c -o second.out
+   75  ls -lt
+   76  cat second.i
+   77  cat second.o
+   78  cat second.s
+   79  cat second.o
+   80  ls -lt
+   81  cd ..\
+   82  cd..
+   83  cd /..
+   84  pwd
+   85  cd home
+   86  cd user
+   87  pwd
+   88  cd RTR105\
+   89  RTR105
+   90  cd RTR105
+   91  touch .gitignore
+   92  ls -lta
+   93  nano .gitignore
+   94  ls -alt
+   95  cat .gitignore
+   96  history
+   97  history > history_20230926_Class_05.txt
