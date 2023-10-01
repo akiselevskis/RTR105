@@ -62,6 +62,13 @@ Lielai daļai funkciju ir opcijas/atslēgas, kas maina funckcijas darbību. Term
 
 3
 
+  ## 5.nodarbības "atziņas" - funckijas izveide un palaišana
+  1. Ar nano palīdzību izveido programmatūru (.c galote priekš C programmas un .sh priekš Shell programas). -> nano first.c
+  2. Tajā ieraksta programmas kodu, saglabā un aizver.
+  3. To kompilē ar kodu gcc name (piem. gcc first.c). Lai to nosauktu citādi, jāpievieno opcija -o (piem. gcc first.c -o first.out).
+  4. To palaiž ar ./name (piem. ./first.out)
+  5. Ja failam nav visas nepieciešamās izpildes atļaujas, tās var sniegt ar sudo un chmod *(nepieciešams papildinājums)*.
+
 Informācija, lai noformētu lapu: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax.
 
 [^1]: Lapa izveidota 05.09.23
