@@ -70,6 +70,10 @@ Lielai daļai funkciju ir opcijas/atslēgas, kas maina funckcijas darbību. Term
   5. Ja failam nav visas nepieciešamās izpildes atļaujas, tās var sniegt ar sudo un chmod *(nepieciešams papildinājums)*.
 
 Informācija, lai noformētu lapu: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax.
+  ## 6/7.nodarbības "atziņas" - C data types and operations
+  1. stdin, stdout?
+  2. inform user
+  3. Create program that reads user name and age and displays name and birth year
 
 [^1]: Lapa izveidota 05.09.23
 
