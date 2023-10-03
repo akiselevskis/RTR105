@@ -1,0 +1,77 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  $ echo SHELL
+    4  $ env
+    5  env
+    6  printenv
+    7  git clone https://github.com/akiselevskis/RTR105
+    8  ls -lt
+    9  cd RTR105
+   10  ls
+   11  cat git-upload
+   12  cd ..
+   13  git clone https://github.com/tatusmatrix
+   14  cd RTR105
+   15  nano history
+   16  cat history
+   17  history
+   18  cd git-upload
+   19  nano git-upload
+   20  mkdir Class_06
+   21  cd Class_06
+   22  ls
+   23  ls -a
+   24  nano ezis.c
+   25  gcc ezis.c -o ezis.out
+   26  cat ezis.out
+   27  nano example_1.c
+   28  gcc example_1.c
+   29  ls -alt
+   30  a.out >> example_1.out
+   31  echp a.out >> example_1.out
+   32  echo a.out >> example_1.out
+   33  cat example_1.out
+   34  rm a.out
+   35  rm example_1.out
+   36  ls -alt
+   37  gcc example_1.c -o example_1.out
+   38  ./example_1.out
+   39  ls-alt
+   40  ls -alt
+   41  cd
+   42  cd RTR105
+   43  ls
+   44  mv Class_06 Class_07
+   45  ls
+   46  nano ezis.c
+   47  ls -alt
+   48  cd Class_07
+   49  nano ezis.c
+   50  ./ezis.out
+   51  nano ezis.c
+   52  nano example_2.c
+   53  gcc example_2.c -o example_2.out
+   54  /.example_2.out
+   55  ls
+   56  ./example_2.out
+   57  FILE * stdin;
+   58  myapplication < example.txt
+   59  nano example.txt
+   60  myapplication < example.txt
+   61  rm example.txt
+   62  ls
+   63  example_1.out > example.txt
+   64  ./example_1.out > example.txt
+   65  cat example.txt
+   66  rm example.txt
+   67  echo test
+   68  echo test\n
+   69  echo -e test\n
+   70  man echo
+   71  echo -e "test\n\n"
+   72  echo "test\"
+
+
+   73  echo "test\n\n"
+   74  ls -alt
+   75  history > history_20231003_Class_07.txt
