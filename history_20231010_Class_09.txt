@@ -1,0 +1,122 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  clone git https://github.com/akiselevskis/RTR105
+    4  git clone https://github.com/akiselevskis/RTR105
+    5  pwd
+    6  ls
+    7  cd RTR105
+    8  mkdir Class_09
+    9  cp Class_09
+   10  touch test.txt
+   11  ls
+   12  cp test.txt
+   13  cp test.txt test0.txt
+   14  ls
+   15  ls test
+   16  ls test*txt
+   17  rm test.txt
+   18  rm test0.txt
+   19  nano example_3.c
+   20  gcc -o example_3.c example_3.out
+   21  gcc example_3.c -o example_3.out
+   22  ./example_3.out
+   23  ls
+   24  ./example_3.out 
+   25  ls -al
+   26  cd Class_07
+   27  ls -al
+   28  cd ..
+   29  cd Desktop
+   30  touch notesClass9.txt
+   31  ls
+   32  cd ..
+   33  cd RTR105
+   34  ls
+   35  man ./
+   36  man /.
+   37  man gcc
+   38  ./example_3.out 
+   39  chmod 777 example_3.out
+   40  ./example_3.out 
+   41  ls -al
+   42  cd Class_09
+   43  nano variables.c
+   44  gcc variables.c -o variables.out
+   45  ls
+   46  ./variables.out 
+   47  nano variables.c
+   48  %
+   49  jobs
+   50  fg 2
+   51  jobs
+   52  fg 1
+   53  gcc variables.c -o variables.out
+   54  nano variables.c
+   55  gcc variables.c -o variables.out
+   56  ./variables.out 
+   57  gcc variables.c -o variables.out
+   58  ./variables.out 
+   59  nano variables.c
+   60  gcc variables.c -o variables.out
+   61  ./variables.out 
+   62  nano variables.c
+   63  gcc variables.c -o variables.out
+   64  ./variables.out 
+   65  nano variables.c
+   66  gcc variables.c -o variables.out
+   67  ./variables.out 
+   68  nano variables.c
+   69  gcc variables.c -o variables.out
+   70  ./variables.out 
+   71  nano variables.c
+   72  gcc variables.c -o variables.out
+   73  ./variables.out 
+   74  nano operacijas.c
+   75  gcc operacijas.c -o operacijas.out
+   76  nano operacijas.c
+   77  gcc operacijas.c -o operacijas.out
+   78  nano operacijas.c
+   79  gcc operacijas.c -o operacijas.out
+   80  ./operacijas.out
+   81  pwd
+   82  nano operacijas.c
+   83  gcc operacijas.c -o operacijas.out
+   84  ./operacijas.out
+   85  nano variables.c
+   86  gcc variables.c -o variables.out
+   87  nano variables.c
+   88  gcc variables.c -o variables.out
+   89  ./variables.out
+   90  nano variables.c
+   91  gcc variables.c -o variables.out
+   92  ./variables.out
+   93  nano variables.c
+   94  gcc variables.c -o variables.out
+   95  ./variables.out
+   96  nano variables.c
+   97  gcc variables.c -o variables.out
+   98  ./variables.out
+   99  nano variables.c
+  100  gcc variables.c -o variables.out
+  101  ./variables.out
+  102  nano variables.c
+  103  gcc variables.c -o variables.out
+  104  ./variables.out
+  105  nano variables.c
+  106  gcc variables.c -o variables.out
+  107  ./variables.out
+  108  nano file.c
+  109  nano variables.c
+  110  gcc variables.c -o variables.out
+  111  ./variables.out
+  112  ls -al
+  113  ..
+  114  cd ..
+  115  ls -al
+  116  ./git-upload
+  117  git clone https://github.com/akiselevskis/RTR105/tree/main
+  118  git clone https://github.com/akiselevskis/RTR105
+  119  cd Class_9
+  120  ls
+  121  cd Class_09
+  122  history >> history_20231010_Class_09.txt
