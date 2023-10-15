@@ -10,7 +10,4 @@ int main()
     printf("%lld\n", returnValue); //Izdod reizinājumu
     return 0;
 }
-        //Šī programma nestrādā, ja starp cipariem ievieto atstarpes (piem. 400 000).
-        //Lai tā strādātu, jaaievieto 400000 un 100000.
-        //Lūdzu dodiet ziņu, ja šī problēma ir jālabo. Paldies!
 
