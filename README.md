@@ -48,8 +48,14 @@ Lielai daļai funkciju ir opcijas/atslēgas, kas maina funckcijas darbību. Term
   1. nano text.txt (create text.txt and open it in text editor Nano)
   1. chmod 444 text.txt (edit permissions of the file text.txt. 444 means read, read read. 7 means write... it is decimal from binary)
   1. script.sh is a script (sh. is an executable shell file. To launch it, say ./script.sh.) The first line has to be:
-     - !#/bin/sh
+     - #!/bin/bash
   1. cp (copy smth)
+
+### Kā uzrakstīt shell funckiju?
+1. nano functionName.sh
+2. Sāc ar #!/bin/bash un katrā jaunā rindā raksti ierastās linux funckijas
+3. Iedod funckija atļauju tikt palaistai ar chmod (vai nu  chmod +x functionName.sh vai chmod 777 functionName.sh)
+   Strādājošu shell funckiju var atrast šeit: 
 
   ## 4.nodarbības "atziņas" - git clone sasaiste
   1. git
