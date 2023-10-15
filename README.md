@@ -55,7 +55,7 @@ Lielai daļai funkciju ir opcijas/atslēgas, kas maina funckcijas darbību. Term
 1. nano functionName.sh
 2. Sāc ar #!/bin/bash un katrā jaunā rindā raksti ierastās linux funckijas
 3. Iedod funckija atļauju tikt palaistai ar chmod (vai nu  chmod +x functionName.sh vai chmod 777 functionName.sh)
-   Strādājošu shell funckiju var atrast šeit: 
+   Strādājošu shell funckiju var atrast šeit: https://github.com/akiselevskis/RTR105/blob/main/ReadMeExplanations/test.sh
 
   ## 4.nodarbības "atziņas" - git clone sasaiste
   1. git
