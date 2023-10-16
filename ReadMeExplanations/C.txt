@@ -1,0 +1,13 @@
+Data tipi un to specifiers:
+  Veseli skaitļi:
+    short - %hhd (
+    short - %hd
+    int - %d (2-4 baiti)
+    long - %ld
+    long long - %lld
+  Reāli skaitļi:
+    float - %fl (4 baiti)
+    double - %d
+  Characters:
+    char - %c
+    string - %s
