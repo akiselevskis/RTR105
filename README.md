@@ -81,6 +81,12 @@ Informācija, lai noformētu lapu: https://docs.github.com/en/get-started/writin
   2. inform user
   3. Create program that reads user name and age and displays name and birth year
 
+  ## 10. nodarbība - funckijas
+  1. Definē funckiju (nevar būt nosaukta main):
+     int function(int a, int b){
+       return a + b;
+     }
+
 [^1]: Lapa izveidota 05.09.23
 
 $${\color{Red}**Beigas**}$$
