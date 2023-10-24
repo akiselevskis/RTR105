@@ -1,0 +1,188 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox
+    4  git clone https://github.com/akiselevskis/RTR105
+    5  cd RTR105
+    6  ls
+    7  Class_11
+    8  mkdir Class_11
+    9  cd Class_11
+   10  nano main.c
+   11  nano foo.c
+   12  nano foo.h
+   13  ls
+   14  gcc -Wall -c foo.c
+   15  gcc -Wall -c main.c
+   16  gcc -o testprogram foo.o main.o
+   17  ./testprogram 
+   18  man gcc
+   19  man gcc -wall
+   20  man -wall
+   21  nano main.c
+   22  nano foo.c
+   23  nano main.c
+   24  nano foo.c
+   25  nano foo.h
+   26  nano main.c
+   27  nano foo.c
+   28  gcc -Wall -c foo.c
+   29  gcc -Wall -c main.c
+   30  nano main.c
+   31  gcc -Wall -c foo.c
+   32  gcc -Wall -c main.c
+   33  nano main.c
+   34  gcc -Wall -c foo.c
+   35  gcc -Wall -c main.c
+   36  gcc -o testprogram foo.o main.o
+   37  ./testprogram 
+   38  nano main.c
+   39  nano foo.c
+   40  nano testpointers.c
+   41  gcc testpointers.c -o testpointers.out
+   42  nano testpointers.c
+   43  gcc testpointers.c -o testpointers.out
+   44  nano testpointers.c
+   45  gcc testpointers.c -o testpointers.out
+   46  nano testpointers.c
+   47  gcc testpointers.c -o testpointers.out
+   48  mkdir strings
+   49  cd strings
+   50  nano ex1.c
+   51  gcc ex1.c -o ex1.out
+   52  ./ex1.out 
+   53  nano ex1.c
+   54* gcc ex2.c -o ex1.out
+   55  ./ex1.out 
+   56  nano ex2.c
+   57  gcc ex2.c -o ex2.out
+   58  ./ex2.out 
+   59  cp ex2.c ex2.1.c
+   60  nano ex2.1.c
+   61  cp ex2.1.c ex2.1.c
+   62  gcc ex2.1.c -o ex2.1.out
+   63  rm ex2.1.c
+   64  ls
+   65  cd ..
+   66  ls
+   67  testpointers.c
+   68  nano testpointers.c
+   69  gcc testpointers.c -o testpointers.out
+   70  ./testpointers.out 
+   71  nano testpointers.c
+   72  gcc testpointers.c -o testpointers.out
+   73  ./testpointers.out 
+   74  nano testpointers.c
+   75  cp testpointers.c charpointers.c
+   76  nano charpointers.c 
+   77  gcc charpointers.c -o charpointers.out
+   78  ./charpointers.out 
+   79  nano arrays.c
+   80  gcc arrays.c arrays.out
+   81  gcc arrays.c -o arrays.out
+   82  ./arrays.out 
+   83  ls
+   84  cp arrays.c arraysfor.c
+   85  nano arraysfor.c
+   86  gcc arraysfor.c -o arraysfor.out
+   87  nano arraysfor.c
+   88  gcc arraysfor.c -o arraysfor.out
+   89  ./arraysfor.out
+   90  nano arraysfor.c
+   91  gcc arraysfor.c -o arraysfor.out
+   92  ./arraysfor.out
+   93  nano arraysfor.c
+   94  gcc arraysfor.c -o arraysfor.out
+   95  ./arraysfor.out
+   96  nano arraysfor.c
+   97  gcc arraysfor.c -o arraysfor.out
+   98  ./arraysfor.out
+   99  nano dialogs.c
+  100  gcc dialogs.c -o dialogs.out
+  101  ./dialogs.out 
+  102  nano dialogs.c
+  103  gcc dialogs.c -o dialogs.out
+  104  ./dialogs.out 
+  105  nano dialogs.c
+  106  gcc dialogs.c -o dialogs.out
+  107  nano dialogs.c
+  108  gcc dialogs.c -o dialogs.out
+  109  ./dialogs.out 
+  110  nano dialogs.c
+  111  gcc dialogs.c -o dialogs.out
+  112  ./dialogs.out 
+  113  nano dialogs.c
+  114  gcc dialogs.c -o dialogs.out
+  115  ./dialogs.out 
+  116  nano dialogs.c
+  117  gcc dialogs.c -o dialogs.out
+  118  nano dialogs.c
+  119  gcc dialogs.c -o dialogs.out
+  120  nano dialogs.c
+  121  nano dialogs2.c
+  122  gcc dialogs2.c -o dialogs2.out
+  123  ./dialogs2.out
+  124  nano dialogs2.c
+  125  gcc dialogs2.c -o dialogs2.out
+  126  nano dialogs2.c
+  127  gcc dialogs2.c -o dialogs2.out
+  128  nano dialogs2.c
+  129  gcc dialogs2.c -o dialogs2.out
+  130  ./dialogs2.out
+  131  nano dialogs2.c
+  132  gcc dialogs2.c -o dialogs2.out
+  133  ./dialogs2.out
+  134  nano dialogs2.c
+  135  gcc dialogs2.c -o dialogs2.out
+  136  ./dialogs2.out
+  137  nano dialogs2.c
+  138  gcc dialogs2.c -o dialogs2.out
+  139  ./dialogs2.out
+  140  gcc dialogs2.c -o dialogs2.out
+  141  nano dialogs2.c
+  142  gcc dialogs2.c -o dialogs2.out
+  143  nano dialogs2.c
+  144  gcc dialogs2.c -o dialogs2.out
+  145  nano dialogs2.c
+  146  gcc dialogs2.c -o dialogs2.out
+  147  nano dialogs2.c
+  148  ./dialogs2.out
+  149  nano dialogs2.c
+  150  gcc dialogs2.c -o dialogs2.out
+  151  ./dialogs2.out
+  152  nano dialogs2.c
+  153  gcc dialogs2.c -o dialogs2.out
+  154  ./dialogs2.out
+  155  nano dialogs2.c
+  156  gcc dialogs2.c -o dialogs2.out
+  157  ./dialogs2.out
+  158  test
+  159  test.
+  160  nano dialogs2.c
+  161* 
+  162  test
+  163  gcc dialogs2.c -o dialogs2.out
+  164  test
+  165  ./dialogs2.out
+  166  nano dialogs2.c
+  167  gcc dialogs2.c -o dialogs2.out
+  168  ./dialogs2.out
+  169  nano dialogs2.c
+  170  gcc dialogs2.c -o dialogs2.out
+  171  ./dialogs2.out
+  172  nano dialogs2.c
+  173  gcc dialogs2.c -o dialogs2.out
+  174  ./dialogs2.out
+  175  nano dialogs2.c
+  176  gcc dialogs2.c -o dialogs2.out
+  177  ./dialogs2.out
+  178  nano dialogs2.c
+  179  ./dialogs2.out
+  180  nano dialogs2.c
+  181  gcc dialogs2.c -o dialogs2.out
+  182  ./dialogs2.out
+  183  nano dialogs2.c
+  184  nano charcompare.c
+  185  gcc charcompare.c -o charcompare.out
+  186  ./charcompare.out 
+  187  nano charcompare.c
+  188  history >> history_24_10_23.txt
