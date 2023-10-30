@@ -105,6 +105,29 @@ Ja funckija tiks definēta pēc main funkcijas, programma nestrādās. Lai to no
   ```
   Tām nav nepieciešams return paziņojums.
   ## 12. nodarbība - pointers
+  Lai saprastu norādes (pointers), nepieciešams saprast adreses. Adreses var atrast ar &variable un %p specifizātoru:
+  ```
+  int var = 5;
+  printf("Mainīgā adrese ir %p", &var); //output mainās!
+  ```
+Adrese katru reizi būs atšķirīga pateicoties Address Space Layout Randomization (ASLR): https://en.wikipedia.org/wiki/Address_space_layout_randomization <br />
+Pointer ir īpašs mainīgais, kas uztur nevis vērtību, bet gan adresi.
+Pointer var deklarēt ar datu tipu, "*" un nosaukumu:
+```
+int* p; //vai
+int *p;
+```
+Vienā int deklarācijas reizē var deklarēt gan parastas int vērtības, gan pointers. Lai pievienotu pointerim kāda mainīgā adresi, izmanto "&":
+```
+    int a, *p;
+    a = 5; //piemērs
+    p = &a;
+    printf("a vērtība: %d\n", a);
+    printf("a adrese = pc pointera vērtība: %p\n", p);
+```
+2 veidi kā nosaukt pointer:
+1. Izsaukt adresi tieši no mainīgā,
+1. Pievienot adreses vērtību pointerim un to pasaukt.
   ## 13. nodarbība - strings and char arrays
   C valodā nepastāv string datu tips. Katrs string C valodā ir simbolu masīvs, jeb char array. String, toties ir savs data tipa specifizātors pie printf.
   char vards[100];
@@ -112,7 +135,7 @@ Ja funckija tiks definēta pēc main funkcijas, programma nestrādās. Lai to no
     char vards[50];
     printf("Ievadi vārdu: ");
     scanf("%s", vards);
-    printf("Your favourite color is: %s.", vards);
+    printf("Tavs vārds ir: %s.", vards);
  ```
 Masīviem nepieciešams specifizēt izmēru (to veic kantainajās iekavās) un skaitlis būs vienāds 
 ar iespējamo simbolu skaitu - 1, jo pēdējā vieta tiek atvēlēta "\0", jeb Null simbolam.
