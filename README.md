@@ -81,11 +81,41 @@ Informācija, lai noformētu lapu: https://docs.github.com/en/get-started/writin
   2. inform user
   3. Create program that reads user name and age and displays name and birth year
 
+  ## 8. nodarbība - if operators
+  ## 9. nodarbība - for, while, do-while operatori
+
   ## 10. nodarbība - funckijas
   1. Definē funckiju (nevar būt nosaukta main):
+     ```
      int function(int a, int b){
        return a + b;
      }
+     ```
+
+Ja funckija tiks definēta pēc main funkcijas, programma nestrādās. Lai to novērstu - var izmantot funkcijas prototipus: <br />
+  Pirms main funckijas izveido funckijas prototipu: 
+  ```
+  int function(int, int);
+  ```
+  Protams, ka funckijas tips un mainīgo datu tips var mainīties, bet pārējais nemainās. <br />
+  Bieži izmantots funckijas datu tips ir void. Void funckijas neatgriež vērtību (bet spēj mainīt mainīgos, izmantot printf u.c.)
+  ```
+  void function(){
+  }
+  ```
+  Tām nav nepieciešams return paziņojums.
+  ## 12. nodarbība - pointers
+  ## 13. nodarbība - strings and char arrays
+  C valodā nepastāv string datu tips. Katrs string C valodā ir simbolu masīvs, jeb char array. String, toties ir savs data tipa specifizātors pie printf.
+  char vards[100];
+  ```
+    char vards[50];
+    printf("Ievadi vārdu: ");
+    scanf("%s", vards);
+    printf("Your favourite color is: %s.", vards);
+ ```
+Masīviem nepieciešams specifizēt izmēru (to veic kantainajās iekavās) un skaitlis būs vienāds 
+ar iespējamo simbolu skaitu - 1, jo pēdējā vieta tiek atvēlēta "\0", jeb Null simbolam.
 
 [^1]: Lapa izveidota 05.09.23
 
