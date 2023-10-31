@@ -1,0 +1,3 @@
+Name 1 [Es        ]
+Name 2 [esmu      ]
+Name 3 [Artūrs   ]
