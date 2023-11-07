@@ -139,6 +139,7 @@ Vienā int deklarācijas reizē var deklarēt gan parastas int vērtības, gan p
  ```
 Masīviem nepieciešams specifizēt izmēru (to veic kantainajās iekavās) un skaitlis būs vienāds 
 ar iespējamo simbolu skaitu - 1, jo pēdējā vieta tiek atvēlēta "\0", jeb Null simbolam.
+ ## 14. nodarbība - FILEs
 
 [^1]: Lapa izveidota 05.09.23
 
