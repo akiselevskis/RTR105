@@ -1,0 +1,246 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/akiselevskis/RTR105
+    4  ls
+    5  cd RTR105
+    6  ls
+    7  mkdir Class_15
+    8  cd Class_15
+    9  gnuplot --version
+   10  gnuplot
+   11  whereis gnuplot
+   12  which gnuplot
+   13  nano example.gp
+   14  chmod 774 example.gp
+   15  ls
+   16  ./example.gp 
+   17  nano example.gp
+   18  chmod 774 example.gp
+   19  ./example.gp 
+   20  nano example.gp
+   21  chmod 774 example.gp
+   22  ./example.gp 
+   23  nano example.gp
+   24  chmod 774 example.gp
+   25  ./example.gp 
+   26  nano example.gp
+   27  chmod 774 example.gp
+   28  ./example.gp 
+   29  chmod 774 example.gp
+   30  nano example.gp
+   31  chmod 774 example.gp
+   32  ./example.gp 
+   33  cp example.gp example1.gp
+   34  nano example1.gp
+   35  chmod 774 example1.gp
+   36  ./example1.gp 
+   37  nano example1.gp
+   38  gnuplot
+   39  ls
+   40  rm example1.gp
+   41  ls
+   42  nano piemers.gp
+   43  which gnuplot
+   44  chmod 774 piemers.gp
+   45  ./piemers.gp 
+   46  nano piemers.gp
+   47  chmod 774 piemers.gp
+   48  ./piemers.gp 
+   49  nano piemers.gp
+   50  chmod 774 piemers.gp
+   51  ./piemers.gp 
+   52  nano piemers.gp
+   53  chmod 774 piemers.gp
+   54  ./piemers.gp 
+   55  mkdir grafiks
+   56  cd grafiks
+   57  nano uzdevums.txt
+   58  cat uzdevums.txt
+   59  nano grafiks.gp
+   60  chmod 774 grafiks.gp
+   61  ls -al
+   62  ./grafiks.gp 
+   63  nano grafiks.gp
+   64  ./grafiks.gp 
+   65  nano grafiks.gp
+   66  ./grafiks.gp 
+   67  nano grafiks.gp
+   68  ./grafiks.gp 
+   69  nano grafiks.gp
+   70  ./grafiks.gp 
+   71  nano grafiks.gp
+   72  ./grafiks.gp 
+   73  nano grafiks.gp
+   74  ./grafiks.gp 
+   75  nano grafiks.gp
+   76  ./grafiks.gp 
+   77  nano grafiks.gp
+   78  ./grafiks.gp 
+   79  nano grafiks.gp
+   80  ./grafiks.gp 
+   81  nano grafiks.gp
+   82  ./grafiks.gp 
+   83  nano grafiks.gp
+   84  ./grafiks.gp 
+   85  nano grafiks.gp
+   86  ./grafiks.gp 
+   87  nano grafiks.gp
+   88  ./grafiks.gp 
+   89  nano grafiks.gp
+   90  ./grafiks.gp 
+   91  nano grafiks.gp
+   92  ./grafiks.gp 
+   93  nano grafiks.gp
+   94  ./grafiks.gp 
+   95  nano grafiks.gp
+   96  ./grafiks.gp 
+   97  nano grafiks.gp
+   98  ./grafiks.gp 
+   99  nano grafiks.gp
+  100  ./grafiks.gp 
+  101  nano grafiks.gp
+  102  nano uzdevums.txt
+  103  nano grafiks.gp
+  104  ./grafiks.gp 
+  105  nano grafiks.gp
+  106  ./grafiks.gp 
+  107  nano grafiks.gp
+  108  ./grafiks.gp 
+  109  nano grafiks.gp
+  110  ./grafiks.gp 
+  111  nano grafiks.gp
+  112  ./grafiks.gp 
+  113  nano grafiks.gp
+  114  ./grafiks.gp 
+  115  nano grafiks.gp
+  116  ./grafiks.gp 
+  117  nano grafiks.gp
+  118  ./grafiks.gp 
+  119  nano grafiks.gp
+  120  ./grafiks.gp 
+  121  nano grafiks.gp
+  122  ./grafiks.gp 
+  123  nano grafiks.gp
+  124  ./grafiks.gp 
+  125  nano grafiks.gp
+  126  ./grafiks.gp 
+  127  nano grafiks.gp
+  128  ./grafiks.gp 
+  129  nano grafiks.gp
+  130  ./grafiks.gp 
+  131  nano grafiks.gp
+  132  ./grafiks.gp 
+  133  nano grafiks.gp
+  134  ./grafiks.gp 
+  135  nano grafiks.gp
+  136  ./grafiks.gp 
+  137  nano grafiks.gp
+  138  ls
+  139  cd ..
+  140  cp grafiks
+  141  ls
+  142  cp example.gp example1.gp
+  143  nano example1.gp
+  144  chmod 774 example1.gp
+  145  ./example1.gp
+  146  nano example1.gp
+  147  ./example1.gp
+  148  nano example1.gp
+  149  ./example1.gp
+  150  nano example1.gp
+  151  ./example1.gp
+  152  cd ..
+  153  ls
+  154  cd Class_15
+  155  cd grafiks
+  156  gnuplot
+  157  cd ..
+  158  ls
+  159  nano example.gp
+  160  nano example1.gp
+  161  ./example1.gp
+  162  nano example1.gp
+  163  ./example1.gp
+  164  nano example1.gp
+  165  ./example1.gp
+  166  nano example1.gp
+  167  nano teilors.c
+  168  nano example1.gp
+  169  nano teilors2.gp
+  170  chmod 774 teilors2.gp
+  171  ./teilors2.gp 
+  172  nano teilors2.gp
+  173  ./teilors2.gp 
+  174  nano teilors2.gp
+  175  ./teilors2.gp 
+  176  nano teilors2.gp
+  177  rm teilors1.gp
+  178  rm teilors.gp
+  179  ls
+  180  cp teilors2.gp teilors1.c
+  181  ./teilors1.c
+  182  rm teilors.c
+  183  rm teilors2.gp
+  184  ls
+  185  nano teilors1.c
+  186  gcc teilors1.c -o teilors1.out
+  187  nano teilors1.c
+  188  gcc teilors1.c -o teilors1.out
+  189  nano teilors1.c
+  190  gcc teilors1.c -o teilors1.out
+  191  nano teilors1.c
+  192  gcc teilors1.c -o teilors1.out
+  193  nano teilors1.c
+  194  gcc teilors1.c -o teilors1.out
+  195* 
+  196  ./teilors1.c
+  197  ./teilors1.out
+  198  nano teilors1.c
+  199  gcc teilors1.c -o teilors1.out -lm
+  200  ./teilors1.out
+  201  nano teilors1.c
+  202  cp teilors1.c teilors2.c
+  203  nano teilors2.c
+  204  gcc teilors2.c -o teilors2.out -lm
+  205  ./teilors2.out
+  206  ./teilors1.out
+  207  nano teilors1.c
+  208  ./teilors1.out
+  209  gcc teilors1.c -o teilors1.out -lm
+  210  ./teilors1.out
+  211  nano teilors1.c
+  212  gcc teilors1.c -o teilors1.out -lm
+  213  ./teilors1.out
+  214  nano teilors1.c
+  215  nano teilors2.c
+  216  gcc teilors2.c -o teilors2.out -lm
+  217  ./teilors2.out
+  218  nano teilors1.c
+  219  gcc teilors1.c -o teilors1.out -lm
+  220  ./teilors1.out
+  221  nano teilors1.c
+  222  gcc teilors1.c -lm
+  223  ./a.out 
+  224  nano teilors1.c
+  225  gcc teilors1.c -lm
+  226  ./a.out 
+  227  nano teilors1.c
+  228  gcc teilors1.c -lm
+  229  ./a.out 
+  230  rm a.out
+  231  gcc teilors1.c -o teilors1.out -lm
+  232  ./teilors1.out 
+  233  cp teilors1.c teilors2.c
+  234  nano teilors2.c
+  235  gcc teilors2.c -o teilors2.out -lm
+  236  ./teilors2.out 
+  237  cp teilors2.c teilors3.c
+  238  nano teilors3.c
+  239  cd
+  240  ls
+  241  cd RTR105
+  242  ls
+  243  cd Class_16
+  244  cd Class_15
+  245  history
+  246  history >> history_07_11_23.txt

@@ -1,0 +1,9 @@
+grafika nosaukuma uzdosana
+asis robežu noteiksana
+asis nosaukumu došana
+rezģa pievienošana (minor grid, main grid)
+vairākas vertikalas asis (pa labi un pa kreisi)
+punktu (marķieru) zīmēšana (atbilstoši diskreto merijumu rezultātiem)
+datu paņemšana no faila
+grafika leģenda
+grafika saglabāšana failā (png)
