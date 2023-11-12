@@ -24,7 +24,7 @@ int main(void) {
             if (reize >= 5) {
                 if ((sc % 10) != 0) {
                     printf("\nKļūda. Novērota pārplūde (datu tips nespēj uzturēt tik lielu faktoriāļa vērtību).\n");
-                    return 2;
+                    return 1;
                 }
             }
         }
@@ -40,7 +40,7 @@ int main(void) {
             if (reize >= 5) {
                 if ((si % 10) != 0) {
                     printf("\nKļūda. Novērota pārplūde (datu tips nespēj uzturēt tik lielu faktoriāļa vērtību).\n");
-                    return 2;
+                    return 1;
                 }
             }
         }
@@ -56,7 +56,7 @@ int main(void) {
             if (reize >= 5) {
                 if ((sll % 10) != 0) {
                     printf("\nKļūda. Novērota pārplūde (datu tips nespēj uzturēt tik lielu faktoriāļa vērtību).\n");
-                    return 2;
+                    return 1;
                 }
             }
         }
