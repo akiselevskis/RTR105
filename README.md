@@ -1,5 +1,5 @@
 # RTR105
-Studiju kursa Datormācība (pamatkurss) elektroniskā klade[^1]  
+Studiju kursa Datormācība (pamatkurss) elektroniskā klade[^1]
   
 ![C language logo](https://cdn.iconscout.com/icon/free/png-256/free-c-58-1175247.png?f=webp)
 
@@ -104,7 +104,7 @@ Ja funckija tiks definēta pēc main funkcijas, programma nestrādās. Lai to no
   }
   ```
   Tām nav nepieciešams return paziņojums.
-  ## 12. nodarbība - pointers
+  ## 12. nodarbība - norādes (pointers)
   Lai saprastu norādes (pointers), nepieciešams saprast adreses. Adreses var atrast ar &variable un %p specifizātoru:
   ```
   int var = 5;
@@ -140,7 +140,41 @@ Vienā int deklarācijas reizē var deklarēt gan parastas int vērtības, gan p
 Masīviem nepieciešams specifizēt izmēru (to veic kantainajās iekavās) un skaitlis būs vienāds 
 ar iespējamo simbolu skaitu - 1, jo pēdējā vieta tiek atvēlēta "\0", jeb Null simbolam.
  ## 14. nodarbība - FILEs
-
-[^1]: Lapa izveidota 05.09.23
+ C valodā izmanto FILE norādi, lai strādātu ar failiem. Piemēram, tiek izveidota norāde ptr, kuras datu tips ir FILE:
+ ```
+FILE* ptr;
+```
+Lai lasītu un rakstītu failā, tas ir jāatver. Tam izmanto fopen() funckiju, kas ir definēta stdio.h bibliotēkā.
+```
+FILE* ptr;
+ptr = fopen("location_to_file/hello.txt", "w");
+```
+Pirmais funckijas mainīgais ir faila atrašanās vieta (pat ja tāds neeksistē) un otrais mainīgais ir faila atvēršanas režīms. To uzskaitījums pieejams šeit: https://www.tutorialspoint.com/cprogramming/c_file_io.htm. <br/>
+Fails vienmēr ir jāaizver. To veic fclose() funckija:
+```
+fclose(ptr);
+```
+Vienmēr ir labi noskaidrot vai fails ir atvērts **pirms** tajā veic darbības un to aizver. Lūk piemērs visam (no https://github.com/akiselevskis/RTR105/blob/main/Class_14/filetest.c):
+```
+//https://cplusplus.com/reference/cstdio/fopen/
+#include <stdio.h>
+int main ()
+{
+  FILE * pFile;
+  pFile = fopen ("myfile.txt","w");
+  if (pFile!=NULL)
+  {
+    fputs ("fopen example\n",pFile);
+    fclose (pFile);
+  }
+  return 0;
+}
+```
+ ## 15. nodarbība?
+ ## 16. nodarbība - gnuplot
+ ## 17. nodarbība - Teilora rindas
+ 
+[^1]: Lapa izveidota 05.09.23. <br/>
+Informācija, lai noformētu lapu: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax.
 
 $${\color{Red}**Beigas**}$$
