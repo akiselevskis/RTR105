@@ -1,13 +1,13 @@
 /* fopen example */
 #include <stdio.h>
-int main ()
+int main()
 {
-  FILE * pFile;
-  pFile = fopen ("myfile.txt","w");
-  if (pFile!=NULL)
+  FILE *pFile;
+  pFile = fopen("myfile.txt", "w");
+  if (pFile != NULL)
   {
-    fputs ("fopen example\n",pFile);
-    fclose (pFile);
+    fputs("fopen example\n", pFile);
+    fclose(pFile);
   }
   return 0;
 }

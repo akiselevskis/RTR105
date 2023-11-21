@@ -1,0 +1,12 @@
+/
+    "clang-format.executable": "${workspaceRoot}/bin/clang-format",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "xaver.clang-format",
+    "files.associations": {
+        "typeindex": "c",
+        "typeinfo": "c"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    }
+}
