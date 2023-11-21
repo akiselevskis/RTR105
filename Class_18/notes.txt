@@ -1,0 +1,13 @@
+Sakņu atrašana
+Saknes atrod tur kur f(x) = 0.
+ja f1(x) = f2(x) - divi dažādi grafiki un funckija atradīs to krustpunktu
+f1 - f2 = 0. Rodas jauna funkcija kas ies caur 0.
+Kad funckija ir zem 0, tai mainas zime.
+
+Punktus salidzina:
+Ja abi punkti virs x, tad zime nemainas.
+
+Ja >0, vai nu nav saknu vai para saknu skaits?
+
+Bisection = dihotomija:
+Rēķinās viduspunktu

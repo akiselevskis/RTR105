@@ -1,25 +1,26 @@
 #include<stdio.h>
 #include<math.h>
 double mans_sinuss(double x){
- double a,S;
+ double a,S,Sg;
  int k=0;
 
- a = pow(-1,k)*pow(x,2*k+1)/(1.); //calculate the first element of the sum
+ a = 1; //calculate the first element of the sum
  S = a; //push it to the sums value
  printf("%.2f\t%8.2f\t%8.2f\n", x, a, S); //printf those
 
- while(k<3){ //4 loops
+ while(k<500){ //4 loops
   k++; //k = 1
-  a = a* (-1)  *x*x / ((2*k)*(2*k+1)); //rekurences reizinatajs ar ieprieksejo a vertibu
+  a = a* ((-1) *x*x) / (4*k*k - 2*k); //rekurences reizinatajs ar ieprieksejo a vertibu
   S = S + a; //jaunais sum (pieskaitot jauno a)
-  printf("%.2f\t%8.2f\t%8.2f\n", x, a, S); //print those
+  Sg = 0.5 + 0.5*S;
+  printf("%.2f\t%8.2f\t%8.2f\n", x, a, Sg); //print those
  }
-  return S;
+  return Sg;
 }
 
 void main(){
- double x = 2.05, y, yy;
- y = sin(x);
+ double x = 0.9, y, yy;
+ y = cos(x/2)*cos(x/2);
  printf("standarta funkcija sin - y=sin(%.2f)=%.2f\n", x, y);
 
  yy = mans_sinuss(x);
