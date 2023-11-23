@@ -14,7 +14,7 @@ double mans_sinuss(double x){
   a = a* ((-1) *x*x) / (4*k*k - 2*k); //rekurences reizinatajs ar ieprieksejo a vertibu
   S = S + a; //jaunais sum (pieskaitot jauno a)
   Sg = 0.5 + 0.5*S;
-  //printf("%.2f\t%8.2f\t%8.2f\n", x, a, Sg); //print those
+  printf("%.2f\t%8.2f\t%8.2f\n", x, a, Sg); //print those
  }
   return Sg;
 }
@@ -22,7 +22,12 @@ double mans_sinuss(double x){
 void main(){
  double x = 0.9, y, yy;
  y = cos(x/2)*cos(x/2);
- printf("standarta funkcija sin - y=sin(%.2f)=%.2f\n", x, y);
+ //printf("standarta funkcija sin - y=sin(%.2f)=%.2f\n", x, y);
+ printf("Funckijas cos(x/2)*cos(x/2) aprekinasana: \n");
+ printf("Ludzu ievadit izveleto vertibu x: ");
+ scanf(" %.2f", x);
+ y = cos(x/2)*cos(x/2);
+ printf("cos(%.2f/2)*cos(%.2f/2)=%.2f\n", x, x, y);
 
  yy = mans_sinuss(x);
  printf("lietotaaja funkcija - y=mans_sinuss(%.2f)=%.2f\n", x, yy);
