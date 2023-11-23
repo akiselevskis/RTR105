@@ -26,7 +26,6 @@ double teilors(double x){
 
 void main(){
  double x, y, yy;
- //printf("standarta funkcija sin - y=sin(%.2f)=%.2f\n", x, y);
  printf("Funckijas cos(x/2)*cos(x/2) aprekinasana: \n"); //Funckija ir defineta pie visam x vertibam
  printf("Ludzu ievadit izveleto vertibu x: ");
  scanf(" %lf", &x);
