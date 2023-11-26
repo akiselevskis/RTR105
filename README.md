@@ -128,6 +128,26 @@ Vienā int deklarācijas reizē var deklarēt gan parastas int vērtības, gan p
 2 veidi kā nosaukt pointer:
 1. Izsaukt adresi tieši no mainīgā,
 1. Pievienot adreses vērtību pointerim un to pasaukt.
+
+Labs paskaidrojums redzams šeit:
+```
+#include <stdio.h>
+int main()
+{
+    int num = 43;
+    int *ptr = &num;
+    
+    printf("%d\n", num); //outputs the value of the variable
+    
+    printf("%p\n", &num); //outputs the adress of the variable
+    
+    printf("%p\n", ptr); //outputs the value of the pointer which is an adress
+    
+    printf("%d\n", *ptr); //outputs the dereferenced pointer (the value that the pointers adress spot holds)
+
+    return 0;
+}
+```
   ## 13. nodarbība - strings and char arrays
   C valodā nepastāv string datu tips. Katrs string C valodā ir simbolu masīvs, jeb char array. String, toties ir savs data tipa specifizātors pie printf.
   char vards[100];
@@ -170,7 +190,70 @@ int main ()
   return 0;
 }
 ```
- ## 15. nodarbība?
+ ## 15. nodarbība - papilddarbs - dinamiskā atmiņas piešķiršana
+ Malloc(), jeb Memmory Allocation ir funckija, kas uztur norādīto daudzumu atmiņas un izveido norādi uz brīvās atmiņas pirmo bitu. Piemērs:
+ ```
+ptr = (int*) malloc(100 * sizeof(int));
+ ```
+Calloc(), jeb Contiguous Allocation. Piemērs:
+```
+ptr = (float*) calloc(25, sizeof(float));
+```
+Free() ir metode, kā atbrīvot neizmantoto atmiņu. Piemērs:
+```
+free(ptr);
+```
+Realloc() jeb Re-allocation ir metode, kā mainīt ar Malloc vai Calloc rezervēto atmiņu, ja tā ir nepietiekama. Piemērs:
+```
+ptr = realloc(ptr, newSize);
+```
+Realloc padara bezgalīgu datu pievienošanu par iespējamību (un izmantojot mazāko atmiņas daudzumu, kas nepieciešams. <br/>
+Piemērs kā izmantot atmiņu, lai izveidotu noteikta lieluma masīvu un atbrīvot
+```
+// C program to create dynamic array using malloc() function 
+
+#include <stdio.h> 
+#include <stdlib.h> 
+
+int main() 
+{ 
+
+	// address of the block created hold by this pointer 
+	int* ptr; 
+	int size; 
+
+	// Size of the array 
+	printf("Enter size of elements:"); 
+	scanf("%d", &size); 
+
+	// Memory allocates dynamically using malloc() 
+	ptr = (int*)malloc(size * sizeof(int)); 
+
+	// Checking for memory allocation 
+	if (ptr == NULL) { 
+		printf("Memory not allocated.\n"); 
+	} 
+	else { 
+
+		// Memory allocated 
+		printf("Memory successfully allocated using "
+			"malloc.\n"); 
+
+		// Get the elements of the array 
+		for (int j = 0; j < size; ++j) { 
+			ptr[j] = j + 1; 
+		} 
+
+		// Print the elements of the array 
+		printf("The elements of the array are: "); 
+		for (int k = 0; k < size; ++k) { 
+			printf("%d, ", ptr[k]); 
+		} 
+	} 
+
+	return 0; 
+}
+
  ## 16. nodarbība - gnuplot
  ## 17. nodarbība - Teilora rindas
  
