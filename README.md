@@ -210,11 +210,10 @@ ptr = realloc(ptr, newSize);
 Realloc padara bezgalīgu datu pievienošanu par iespējamību (un izmantojot mazāko atmiņas daudzumu, kas nepieciešams. <br/>
 Piemērs kā izmantot atmiņu, lai izveidotu noteikta lieluma masīvu un atbrīvot
 ```
-// C program to create dynamic array using malloc() function 
+// https://www.geeksforgeeks.org/dynamic-array-in-c/
 
 #include <stdio.h> 
 #include <stdlib.h> 
-
 int main() 
 { 
 
@@ -253,7 +252,7 @@ int main()
 
 	return 0; 
 }
-
+```
  ## 16. nodarbība - gnuplot
  ## 17. nodarbība - Teilora rindas
  
