@@ -1,0 +1,15 @@
+Atvasinasana
+
+f`(x) = lim (delta x-> 0) (delta y / delta x)
+
+Forward difference integer (delta x vietā ir delta f(x))
+
+
+1) Stabiņš ar x un f(x) vērtībām
+2) Pievieno f`(x) sadaļu un atvasini
+3) Pievieno forward difference table (pedejas 2 vertibas nebūs)
+4) f``(x) tabulu
+5) f``(x) f.d (pedejas 2 vertibas nebūs)
+
+6) arrays attēlo ar gnuplot
+Varēs redzēt tikai 3 līknes (ja viss ir pareizi (vairakas pārklājas))

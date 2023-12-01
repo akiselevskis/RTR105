@@ -8,7 +8,7 @@ double teilors(double x){
  a = 1; //pirmais funckijas elements ir 1 (aprekinats atseviski)
  S = a; //S ir vertibas uztures mainigais (pie ta pieskaitis katru elementu)
  Sg = 0.5 + 0.5*S; //vert
- printf("Pirmais summas elements a0 = S0 = %.2f\n", a, Sg);
+ printf("Pirmais summas elements a0 = S0 = %.2f\n", a);
 
  while(k<500){
   k++; //k = 1
