@@ -17,9 +17,6 @@ Funckiju vizualizēšanai tika izmantots Gnuplot, kurā tika attēlota oriģinā
 
 ![Alt text](taylor.png)
 
-Kods:
-
-![Alt text](gnuplot_kods.png)
 
 Gnuplot kodu var atrast šeit: 
 https://github.com/akiselevskis/RTR105/tree/main/darbi/ld1_series/taylor.gp.
