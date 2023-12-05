@@ -1,3 +1,5 @@
+#undef __STRICT_ANSI__ //nav obligāts, bet tas noņem warning no M_PI izmantošanas
+                       //Obligāri jāliek pirms math.h header
 #include <stdio.h>
 #include <math.h>
 int main(){

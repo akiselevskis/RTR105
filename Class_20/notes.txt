@@ -1,0 +1,5 @@
+Funckijas platumu pa x asi var sadalīt bezgalīgās iedaļās un tajās aprēķināt funckijas veertiibu
+
+Wikipedia numerical integration - illustration of the Simpsons rule
+
+Jāpārver šķēršļi kad funckija darbojas īpatnēji a-b modulis ir 0 (bet laukums nav 0) un a un b ir nulles, bet to laukums nav nulle
