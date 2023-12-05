@@ -10,8 +10,8 @@ int main(){
         printf("Sakņu nav (vai tajā ir pāra sakņu skaits)\n");
         return 1;
     }
-    printf("sin(%7.3f) = %7.3f\t\t\t\t, a, sin(a)");
-    printf("sin(%7.3f) = %7.3f, a, sin(b)");
+    printf("               sin(%7.3f)=%7.3f\t\t\t\t", a, sin(a));
+    printf("sin(%7.3f)= %7.3f\n", b, sin(b));
 
     while((b-a)>delta_x){
         k++;
@@ -20,7 +20,7 @@ int main(){
         else  b = x;
         printf("%2d. iterācija: sin(%7.3f)=%7.3f\t", k, a, sin(a));
         printf("sin(%7.3f)=%7.3f\t", x, sin(x));
-        printf("sin(%7.3f)=%7.3f\t", b, sin(b));
+        printf("sin(%7.3f)=%7.3f\n", b, sin(b));
     }
     printf("Sakne atrodas pie x = %.3f, jo sin(x) ir %.3f\n", x, sin(x));
     return 0;

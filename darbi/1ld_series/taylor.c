@@ -2,13 +2,14 @@
 #include<math.h>
 void ascii(); //funckiju ar ASCII zimejumu deklare atseviski lai ta netraucetu koda uztverei
 double teilors(double x){
- double a,S,Sg; //a ir pirmais elements, S ir summa, kas mainas pec katras cilpas atkartosanas reizes 
+ long double a;
+ double S,Sg; //a ir pirmais elements, S ir summa, kas mainas pec katras cilpas atkartosanas reizes 
  int k=0;       //Sg ir gala funckijas rezultats
 
  a = 1; //pirmais funckijas elements ir 1 (aprekinats atseviski)
  S = a; //S ir vertibas uztures mainigais (pie ta pieskaitis katru elementu)
  Sg = 0.5 + 0.5*S; //vert
- printf("Pirmais summas elements a0 = S0 = %.2f\n", a);
+ printf("Pirmais summas elements a0 = S0 = %.2Lf\n", a);
 
  while(k<500){
   k++; //k = 1
@@ -17,10 +18,12 @@ double teilors(double x){
   Sg = 0.5 + 0.5*S;
   //printf("%.2f\t%8.2f\t%8.2f\n", x, a, Sg); //So printf var aktivizet lai redzetu mainigo
  }                                            //vertibas visa cikla garumaa
-  double a499 = a/((-1) *x*x) / (4*k*k - 2*k);
+  long double a499 = a/((-1) *x*x) / (4*k*k - 2*k);
   double s499 = 0.5 + 0.5*((Sg-0.5)/0.5)-(a/((-1) *x*x) / (4*k*k - 2*k)); //nevajadzigi gara iztekme
-  printf("a499 = %.2f S499 = %.2f\n", a499, s499);                        //bet pierada, ka s499 un S500
-  printf("a500 = %.2f S500 = %.2f\n", a, Sg);                             //ir praktiski identiski
+  //printf("a499 = %.2f S499 = %.2f\n", a499, s499);                        //bet pierada, ka s499 un S500
+  //printf("a500 = %.2f S500 = %.2f\n", a, Sg);                             //ir praktiski identiski
+  printf("a499 = %LE S499 = %.2f\n", a499, s499);
+  printf("a500 = %LE S500 = %.2f\n", a, Sg);
   return Sg;
 }
 
