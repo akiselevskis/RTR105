@@ -2,5 +2,5 @@
 git add .
 git config --global user.name akiselevskis
 git config --global user.email arturs.kiselevskis@gmail.com
-git commit -m "Class_05"
+git commit -m "git_upload_push"
 git push origin main
