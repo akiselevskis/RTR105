@@ -1,5 +1,0 @@
-Show a. It is not zero.
-
-Show gnuplot first
-
-Gnuplot kodu nelikt README failā!
