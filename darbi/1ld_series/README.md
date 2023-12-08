@@ -1,8 +1,8 @@
     Artūrs Kiseļevskis RECVO1. grupa 03.12.2023
 # 1. Laboratorijas darbs - Teilora rindas
 ## Ievads
-Teilora rinda ir funkcijas aptuvenās vērtības noteikšanas rīks. Tā sastāv no bezgalīga daudzuma elementu summas. Šie elementi ir n-tās kārtas atvasinājumi punktā a.
-Ja a = 0, šo rindu sauc par Maklaurina rindu, kurā funkcijas vērtība pie maziem argumentiem, ir praktiski identiska oriģinālfunckijai.
+Teilora rinda<sup>[1]</sup> ir funkcijas aptuvenās vērtības noteikšanas rīks. Tā sastāv no bezgalīga daudzuma elementu summas. Šie elementi ir n-tās kārtas atvasinājumi punktā a.
+Ja a = 0, šo rindu sauc par Maklaurina rindu, kurā funkcijas vērtība pie maziem argumentiem, ir praktiski identiska oriģinālfunckijai.<sup>[2]</sup>
 
 Teilora rindas pielietojuma skaidrības pēc, tika veikta funkcijas vizualizēšana. Tika izmantots Gnuplot, kurā tika attēlota oriģinālfunkcija cos(x/2)*cos(x/2), kā arī Teilora rindas pirmās 5 iterācijas (no 500). Attēls:
 
@@ -43,8 +43,9 @@ Laboratorijas darbs parāda Teilora rindas lietderību situācijās, kur datorie
 ## Atsauces un saites uz kodu
 1. https://estudijas.rtu.lv/file.php/360800/RTR105_2019_2020_L18_20200118_14_50.pdf (03.12.23)
 2. https://www.britannica.com/science/Taylor-series (03.12.23)
-3. https://github.com/akiselevskis/RTR105/blob/main/darbi/1ld_series/taylor.png
-   Attēls ģenerēts ar: https://github.com/akiselevskis/RTR105/blob/main/darbi/1ld_series/taylor.gp
-4. https://github.com/akiselevskis/RTR105/blob/main/darbi/1ld_series/maklaurina_summa.png
-5. https://github.com/akiselevskis/RTR105/blob/main/darbi/1ld_series/rekurences_reizinatajs.png
-6. https://github.com/akiselevskis/RTR105/blob/main/darbi/1ld_series/taylor.c
+3. https://github.com/akiselevskis/RTR105/blob/main/darbi/1ld_series/taylor.png (03.12.23)
+   
+   Attēls ģenerēts ar: https://github.com/akiselevskis/RTR105/blob/main/darbi/1ld_series/taylor.gp (03.12.23)
+5. https://github.com/akiselevskis/RTR105/blob/main/darbi/1ld_series/maklaurina_summa.png (03.12.23)
+6. https://github.com/akiselevskis/RTR105/blob/main/darbi/1ld_series/rekurences_reizinatajs.png (03.12.23)
+7. https://github.com/akiselevskis/RTR105/blob/main/darbi/1ld_series/taylor.c (03.12.23)
