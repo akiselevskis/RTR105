@@ -7,7 +7,7 @@ int main(){
     int k = 0;
 
     funkca = sin(a); funkcb = sin(b);
-    if(funkca*funkcb>0){
+    if(funkca*funkcb>0){    //ja abi punkti ir virs vai zem x ass...
         printf("Inervālā [%.2f;%.2f] sin(x) funkcijai ", a, b);
         printf("Sakņu nav (vai tajā ir pāra sakņu skaits)\n");
         return 1;
@@ -15,10 +15,10 @@ int main(){
     printf("               sin(%7.3f)=%7.3f\t\t\t\t", a, sin(a));
     printf("sin(%7.3f)= %7.3f\n", b, sin(b));
 
-    while((b-a)>delta_x){
-        k++;
-        x = (a+b)/2;
-        if(funkca*sin(x)>0) a = x;
+    while((b-a)>delta_x){       //precizitatei
+        k++;                    //iteracijas noteiksanai
+        x = (a+b)/2;    //ģeniāli atrod vidusspunktu!!!!!
+        if(funkca*sin(x)>0) a = x;      //izvelas kurs punkts?????
         else  b = x;
         printf("%2d. iterācija: sin(%7.3f)=%7.3f\t", k, a, sin(a));
         printf("sin(%7.3f)=%7.3f\t", x, sin(x));
