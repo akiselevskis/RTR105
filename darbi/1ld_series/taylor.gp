@@ -5,7 +5,7 @@ set xrange [-pi:pi]
 set yrange [-pi:pi]
 set title "Funckijas cos(x/2)*cos(x/2) Teilora rindas vizualizācija"
 set object 1 rectangle from screen 0,0 to screen 1,1 fillcolor rgb 'white' behind #lai redzetu grafiku VSC
-
+set grid
 plot cos(x/2)*cos(x/2) title "cos(x/2)*cos(x/2)", \
     1 title "S0" with lines, \
     1 - (x*x/2) title "S1" with lines, \
