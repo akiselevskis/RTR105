@@ -40,7 +40,7 @@ Programmā ievietots arī kļūdas pārbaudes mehānisms. Programmas sākumā or
 
 Laboratorijas darbs parāda Teilora rindas lietderību situācijās, kur datoriem nepieciešams aprēķināt abstraktākus matemātikas jēdzienus. Darba laikā tika padziļinātas C valodas zināšanas, stiprinātas Gnuplot prasmes, kā arī trenēta matemātiskā un analītiskā domāšana.
 
-## Atsauces un saites uz kodu
+## Atsauces un saites uz kodiem
 1. https://estudijas.rtu.lv/file.php/360800/RTR105_2019_2020_L18_20200118_14_50.pdf (03.12.23)
 2. https://www.britannica.com/science/Taylor-series (03.12.23)
 3. https://github.com/akiselevskis/RTR105/blob/main/darbi/1ld_series/taylor.png (03.12.23)
