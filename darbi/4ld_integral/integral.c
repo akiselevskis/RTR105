@@ -55,5 +55,5 @@ void main(){
         for(k=0;k<n;k++)
             integr_simp += (h/6)*(funkcija(a+k*h) + 4*funkcija(a+(k+0.5)*h) + funkcija(a+(k+1)*h));
     }
-    printf("Integraala veertiiba (Simpson's Rule): %f\n", integr_simp);
+    printf("Integraala veertiiba ar Simpsona metodi: %f\n", integr_simp);
 }
