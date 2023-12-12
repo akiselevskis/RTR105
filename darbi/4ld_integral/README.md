@@ -57,14 +57,14 @@ Gan grafika līdzība ar Gnuplot ģenerēto grafiku, gan vērtības sakritība a
 Šis laboratorijas darbs parāda integrēšanas essenci, kā arī dod vieglāku izpratni par to, kā dators spēj to uztvert. Tiek attīstītas iemaņas optimizācijā un precizitātes novērtēšanā un uzlabošanā, kā arī uzlabotas spējas ciklu pielietošanā. Programma darbojas kā tai ir paredzēts un ir novērojamas atšķirības katrai laukuma sadalīšanas metodei.
 
 ## Atsauces un saites uz kodiem
-1. https://www.researchgate.net/figure/The-approximation-of-a-circle-a-the-original-domain-of-the-circle-and-its-approximated_fig6_223711108
-1. https://estudijas.rtu.lv/file.php/63844/Skaitliskas_metodes/not.int.aprek.pdf
-1. https://estudijas.rtu.lv/file.php/360800/RTR105_2019_2020_L20_20200118_14_51.pdf
-1. Saite uz attēlu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/koda_izvade%20(3).png \
-   Saite uz kodu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/integral.c
-1. Saite uz attēlu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/integral.png \
-   Saite uz kodu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/integral.gp
-1. https://www.wolframalpha.com/input?i=integrate+cos%28x%2F2%29*cos%28x%2F2%29+from+0+to+2
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/wolframalpha.png
-1. https://www.mathway.com/Calculus
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/Mathway.png
+1. https://www.researchgate.net/figure/The-approximation-of-a-circle-a-the-original-domain-of-the-circle-and-its-approximated_fig6_223711108 (12.12.23)
+1. https://estudijas.rtu.lv/file.php/63844/Skaitliskas_metodes/not.int.aprek.pdf (12.12.23)
+1. https://estudijas.rtu.lv/file.php/360800/RTR105_2019_2020_L20_20200118_14_51.pdf (12.12.23)
+1. Saite uz attēlu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/koda_izvade%20(3).png (12.12.23) \
+   Saite uz kodu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/integral.c (12.12.23)
+1. Saite uz attēlu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/integral.png (12.12.23) \
+   Saite uz kodu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/integral.gp (12.12.23)
+1. https://www.wolframalpha.com/input?i=integrate+cos%28x%2F2%29*cos%28x%2F2%29+from+0+to+2 (12.12.23)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/wolframalpha.png (12.12.23)
+1. https://www.mathway.com/Calculus (12.12.23)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/Mathway.png (12.12.23)
