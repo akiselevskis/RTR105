@@ -46,8 +46,6 @@ Wolframalpha pārbaude:
 
 Gan grafika līdzība ar Gnuplot ģenerēto grafiku, gan vērtības sakritība ar koda izvadi, pierāda, ka programma strādā kā tai ir paredzēts. Programma tika pārbaudīta un salīdzināta ar WolframAlpha arī pie negatīvām vērtībām un dažādām precizitātēm un arī darbojās tai paredzētajā veidā. Papildus informāciju varēja iegūt pārbaudot funckiju ar Mathway tīmekļa vietni:
 
-**CUT IT** ///////////////////////////////////////////////////////////
-
 ![Alt text](Mathway.png)
 
 *5. attēls - Datu analīze ar Mathway <sup>[7]</sup>*
