@@ -30,9 +30,10 @@ int main(){
     funkca = cos(a/2)*cos(a/2) - A;
     funkcb = cos(b/2)*cos(b/2) - A;    
     if(funkca*funkcb>0){
-        printf("Inervālā [%.2lf;%.2lf] cos(x/2)*cos(x/2) funkcijai ", a, b);
-        printf("Sakņu nav (vai tajā ir pāra sakņu skaits)\n");
-        printf("Proof: %lf\n", funkca*funkcb);
+        printf("Inervālā [%.2lf;%.2lf] cos(x/2)*cos(x/2) funkcijai ", a, b); //ko darīt ja sakne ir y=0???
+        printf("sakņu nav (vai tajā ir pāra sakņu skaits)\n");
+        printf("Funckijas vērtību reizinājums norādītā intervāla tālākajos punktos ir %lf,\n", funkca*funkcb);
+        printf("kas liecina, ka abas funckijas atrodas vienā X ass pusē.");
         return 1;
     }while((b-a)>delta_x){
         k++;
