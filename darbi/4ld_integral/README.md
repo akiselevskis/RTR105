@@ -62,8 +62,8 @@ Gan grafika līdzība ar Gnuplot ģenerēto grafiku, gan vērtības sakritība a
 1. https://estudijas.rtu.lv/file.php/360800/RTR105_2019_2020_L20_20200118_14_51.pdf
 1. Saite uz attēlu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/koda_izvade%20(3).png \
    Saite uz kodu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/integral.c
-1. Saite uz attēlu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/koda_izvade%20(3).png](https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/integral.png \
-   Saite uz kodu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/integral.c](https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/integral.gp
+1. Saite uz attēlu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/integral.png \
+   Saite uz kodu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/integral.gp
 1. https://www.wolframalpha.com/input?i=integrate+cos%28x%2F2%29*cos%28x%2F2%29+from+0+to+2
 1. https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/wolframalpha.png
 1. https://www.mathway.com/Calculus
