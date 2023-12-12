@@ -36,19 +36,19 @@ Doto situāciju var vieglāk vizualizēt ar Gnuplot funckiju, kas iekrāso lauku
 
 ## Datu analīze
 
-Lai pārbaudītu funckijas darbību, tika izmantota WolframAlpha tīmekļa vietne. Sākumā funckija tika pārbaudīta ar iepriekš minēto intervālu (0;2).
+Lai pārbaudītu funckijas darbību, tika izmantota WolframAlpha tīmekļa vietne<sup>[6]</sup>. Sākumā funckija tika pārbaudīta ar iepriekš minēto intervālu (0;2).
 
 Wolframalpha pārbaude: 
 
 ![Alt text](wolframalpha.png)
 
-*4. attēls - Datu analīze ar WolframAlpha<sup>[6]</sup>*
+*4. attēls - Datu analīze ar WolframAlpha<sup>[7]</sup>*
 
-Gan grafika līdzība ar Gnuplot ģenerēto grafiku, gan vērtības sakritība ar koda izvadi, pierāda, ka programma strādā kā tai ir paredzēts. Programma tika pārbaudīta un salīdzināta ar WolframAlpha arī pie negatīvām vērtībām un dažādām precizitātēm un arī darbojās tai paredzētajā veidā. Papildus informāciju varēja iegūt pārbaudot funckiju ar Mathway tīmekļa vietni:
+Gan grafika līdzība ar Gnuplot ģenerēto grafiku, gan vērtības sakritība ar koda izvadi, pierāda, ka programma strādā kā tai ir paredzēts. Programma tika pārbaudīta un salīdzināta ar WolframAlpha arī pie negatīvām vērtībām un dažādām precizitātēm un arī darbojās tai paredzētajā veidā. Papildus informāciju varēja iegūt pārbaudot funckiju ar Mathway tīmekļa vietni<sup>[8]</sup>:
 
 ![Alt text](Mathway.png)
 
-*5. attēls - Datu analīze ar Mathway <sup>[7]</sup>*
+*5. attēls - Datu analīze ar Mathway <sup>[9]</sup>*
 
 Šeit redzams, ka funckijas vērtība Mathway vietnē tiek attēlota ar vairāk cipariem aiz komata nekā WolframAlpha, kas ļauj mums pārliecināties (salīdzinot ar datu izvadi), ka programma iegūst visprecīzāko rezultātu ar Simpsona metodi, kā tam arī vajadzētu būt.
 
@@ -60,6 +60,11 @@ Gan grafika līdzība ar Gnuplot ģenerēto grafiku, gan vērtības sakritība a
 1. https://www.researchgate.net/figure/The-approximation-of-a-circle-a-the-original-domain-of-the-circle-and-its-approximated_fig6_223711108
 1. https://estudijas.rtu.lv/file.php/63844/Skaitliskas_metodes/not.int.aprek.pdf
 1. https://estudijas.rtu.lv/file.php/360800/RTR105_2019_2020_L20_20200118_14_51.pdf
-1. dw
+1. Saite uz attēlu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/koda_izvade%20(3).png
+   Saite uz kodu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/integral.c
+1. Saite uz attēlu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/koda_izvade%20(3).png](https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/integral.png
+   Saite uz kodu: https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/integral.c](https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/integral.gp
 1. https://www.wolframalpha.com/input?i=integrate+cos%28x%2F2%29*cos%28x%2F2%29+from+0+to+2
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/wolframalpha.png
 1. https://www.mathway.com/Calculus
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/4ld_integral/Mathway.png
