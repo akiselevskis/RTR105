@@ -7,16 +7,24 @@ float funckija(double x){
 int main(){
     //double x, y;
     double a, b;
-    double A; //y ass nobīde
+    double A = 2; //y ass nobīde
     double funkca, funkcb;
     int k = 0;
     double x, delta_x;
 
+    printf("Shajaa programmaa tiks mekleetas funckijas cos(x/2)*cos(x/2) saknes, juusu izveeleetajaa intervaalaa. \n");
+    printf("Shii programma ir defineeta pie visām reaalaam x veertiibaam,\n\tturpretii y veertiiba ir defineta pie intervaala [0;1].\n");
+    printf("Luudzu izveeleeties nobiides veertiibu intervaalaa [0;1] vai arii nebuus nevienas saknes.\n\n");
     printf("Luudzu ievadiit izveleto intervaalu. Pirmo mazaako, otro lielaako: ");
     scanf(" %lf", &a);
     scanf(" %lf", &b);
-    printf("Luudzu ievadiit izveleto funckijas nobīdi (pzoitiivs skaitlis nobiidiis funckiju uz leju, bet negatiivs uz augshu: ");
-    scanf(" %lf", &A);
+    printf("Luudzu ievadiit izveleto funckijas nobīdi [0;1] robezhaas: ");
+    while(A < 0 || A > 1){
+        scanf(" %lf", &A);
+        if(A < 0 || A > 1){
+            printf("Luudzu izveelaties nobiidi intervaalaa [0;1]: ");
+        }
+    }
     printf("Luudzu ievadiit izveleto rezultaata kluudu - delta x: ");
     scanf(" %lf", &delta_x);
     funkca = cos(a/2)*cos(a/2) - A;
