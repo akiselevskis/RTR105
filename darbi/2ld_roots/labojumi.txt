@@ -1,0 +1,1 @@
+Gnuplot grafiku ar asu krustpunktiem

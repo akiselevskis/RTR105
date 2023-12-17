@@ -1,20 +1,19 @@
-#include <stdio.h>         //Vajag dinamiskus masīvus un malloc?
+#include <stdio.h>
 #include <math.h>
 
 float funckija(double x){
     return cos(x/2)*cos(x/2);
 }
 int main(){
-    //double x, y;
-    double a, b;
+    double a, b; //sakņu noteikšanas intervāls
     double A = 2; //y ass nobīde
-    double funkca, funkcb;
-    int k = 0;
-    double x, delta_x;
+    double funkca, funkcb; //funckiju vērtības nodalījumu galapunktos
+    int k = 0; 
+    double x, delta_x; 
 
-    printf("Shajaa programmaa tiks mekleetas funckijas cos(x/2)*cos(x/2) saknes, juusu izveeleetajaa intervaalaa. \n");
+    printf("Shajaa programmaa tiks mekleetas funckijas cos(x/2)*cos(x/2)-A saknes, juusu izveeleetajaa intervaalaa. \n");
     printf("Shii programma ir defineeta pie visām reaalaam x veertiibaam,\n\tturpretii y veertiiba ir defineta pie intervaala [0;1].\n");
-    printf("Luudzu izveeleeties nobiides veertiibu intervaalaa [0;1] vai arii nebuus nevienas saknes.\n\n");
+    printf("Luudzu izveeleeties nobiides veertiibu(A) intervaalaa [0;1] vai arii nebuus nevienas saknes.\n\n");
     printf("Luudzu ievadiit izveleto intervaalu. Pirmo mazaako, otro lielaako: ");
     scanf(" %lf", &a);
     scanf(" %lf", &b);
@@ -30,10 +29,11 @@ int main(){
     funkca = cos(a/2)*cos(a/2) - A;
     funkcb = cos(b/2)*cos(b/2) - A;    
     if(funkca*funkcb>0){
-        printf("Inervālā [%.2lf;%.2lf] cos(x/2)*cos(x/2) funkcijai ", a, b); //ko darīt ja sakne ir y=0???
-        printf("sakņu nav (vai tajā ir pāra sakņu skaits)\n");
-        printf("Funckijas vērtību reizinājums norādītā intervāla tālākajos punktos ir %lf,\n", funkca*funkcb);
-        printf("kas liecina, ka abas funckijas atrodas vienā X ass pusē.");
+        printf("Inervaalaa [%.2lf;%.2lf] cos(x/2)*cos(x/2)-%.2lf funkcijai ", a, b, A);
+        printf("saknju nav (vai tajaa ir paara saknju skaits)\n");
+        printf("Funckijas veertiibu reizinaajums noraadiitaa intervaala taalaakajos punktos ir %lf.\n", funkca*funkcb);
+        printf("Taa kaa reizinājums ir pozitiivs, tiek pieraadiits, ka abas funckijas atrodas vienaa X ass pusee \n");
+        printf("vai arii sakne nekad neshkerso asi (tikai pieskaras).");
         return 1;
     }while((b-a)>delta_x){
         k++;
@@ -46,17 +46,12 @@ int main(){
         } else {
             b = x;
         }
-    
-        printf("%2d. iteracija: cos(%7.3lf/2)*cos(%7.3lf/2)=%7.3lf\t", k, a, a, cos(a/2) * cos(a/2));
-        printf("cos(%7.3lf/2)*cos(%7.3lf/2)=%7.3lf\t", x, x, cos(x/2) * cos(x/2));
-        printf("cos(%7.3lf/2)*cos(%7.3lf/2)=%7.3lf\n", b, b, cos(b/2) * cos(b/2));
+        //shiis rindiņas var aktevizēt, lai redzētu programmas detalizeetu darbību un iterāciju izmainas
+        //printf("%2d. iteracija: cos(%7.3lf/2)*cos(%7.3lf/2)=%7.3lf\t", k, a, a, cos(a/2) * cos(a/2));
+        //printf("cos(%7.3lf/2)*cos(%7.3lf/2)=%7.3lf\t", x, x, cos(x/2) * cos(x/2));
+        //printf("cos(%7.3lf/2)*cos(%7.3lf/2)=%7.3lf\n", b, b, cos(b/2) * cos(b/2));
     }
-    printf("Sakne atrodas pie x = %.3lf, jo cos(x/2)*cos(x/2) ir %.3lf\n", x, cos(x/2)*cos(x/2));
-    printf("Shis saknes aprekinasanai tika veiktas %2d. iteraacijas.", k);
-
-    //y = funckija(x);
-    //printf("%lf\n", y);
-
-    //printf("Te ir nepaara skaits saknju!!!\n");
+    printf("Sakne atrodas pie x = %.3lf, jo cos(%.3lf/2)*cos(%.3lf/2)-%.2lf ir %.3lf\n", x, x, x, A, (cos(x/2)*cos(x/2))-A);
+    printf("Shis saknes aprekinasanai, pie precizitaates %lf, tika veiktas %d. iteraacijas.", delta_x, k);
     return 0;
 }
