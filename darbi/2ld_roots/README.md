@@ -9,7 +9,7 @@ Skat. ar Gnuplot rīku izveidoto grafiku, kurā attēlota funkcija cos(x/2)*cos(
 
 ![Alt text](roots.png)
 
-*Gnuplot ģenerātais grafiks, kurā attēlotas oriģinālfunkcijas sakne intervālā [0;2] ar nobīdes vērtību A = 0.5 <sup>[3]</sup>*
+*Gnuplot ģenerātais grafiks, kurā attēlota oriģinālfunkcijas sakne intervālā [0;2] ar nobīdes vērtību A = 0.5 <sup>[3]</sup>*
 
 ## Programma
 
