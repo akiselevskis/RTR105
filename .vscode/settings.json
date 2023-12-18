@@ -4,6 +4,7 @@
     "editor.defaultFormatter": "xaver.clang-format",
     "files.associations": {
         "typeindex": "c",
-        "typeinfo": "c"
+        "typeinfo": "c",
+        "math.h": "c"
     }
 }

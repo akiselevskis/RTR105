@@ -1,9 +1,11 @@
 #!/usr/bin/gnuplot --persist
 set terminal pngcairo transparent enhanced font "arial,10" fontscale 1.0 size 600, 400
 set output 'derivative.png' #names the png file
-
-set grid
-
+set yrange [-1.5:1.5]
+set object 1 rectangle from screen 0,0 to screen 1,1 fillcolor rgb 'white' behind #lai redzetu grafiku VSC
+set grid linewidth 1
+set xzeroaxis linetype -1
+set yzeroaxis linetype -1
 #plot [0:2*pi] sin(x)
 #replot [0:2*pi] cos(x) title "cos(x)" #sin atvasinajums ir kosinuss
 #replot "derivative.dat" every ::1 using 1:2 with lines title "sin(x) (from file)"
