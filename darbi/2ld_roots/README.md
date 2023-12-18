@@ -13,7 +13,7 @@ Skat. ar Gnuplot rīku izveidoto grafiku, kurā attēlota funkcija cos(x/2)*cos(
 
 ## Programma
 
-Programmas mērķis ir atrast funkcijas cos(x/2)*cos(x/2)-A saknes lietotāja noteiktajā intervālā, ņēmot vērā lietotāja noteiktās programmas darbības specifikācas.
+Programmas mērķis ir atrast funkcijas cos(x/2)*cos(x/2)-A saknes lietotāja noteiktajā intervālā, ņēmot vērā lietotāja noteiktās programmas darbības specifikācijas.
 Programma sākas ar izmantotās funkcijas definējumu, koda atvieglošanas iemeslu dēļ. Notiek dialogs ar lietotāju funkcijas intervāla, nobīdes un precizitātes mainīgo iegūšanai. Tiek paskaidrots funkcijas vērtības apgabals un tas pie kādām nobīdes vērtībām funkcijai būs saknes (kā arī aizliegts izvēlēties nobīdes vērtību ārpus šī intervāla).<sup>[1]</sup>
 
 Funkcija darbojas iepriekš paskaidrotajā veidā - tiek salīdzināta intervāla tālāko punktu vērtību reizinājumu zīme ar 0. Ja tā ir pozitīva, programma beidz darbību ar paziņojumu, ka šajā intervālā ir pāra skaits sakņu vai arī sakne ir tikai pieskare, jeb nešķērso X asi. Ja reizinājums ir negatīvs, tiek aktivizēts cikls, kurā tiek samazināts intervāla lielums ar īpatnēju metodi, kurā intervālā vienmēr tiek paturēta sakne (arī salīdzinot reizinājumu ar 0). Cikls terminējas, kad punktu attālumu starpība ir mazāka par pieprasīto precizitāti. Tiek izdota atbilde (saknes vērtība), kā arī funkcijas vērtība pie šīs x vērtības un nepieciešamo iterāciju skaits pie pieprasītās precizitātes.
