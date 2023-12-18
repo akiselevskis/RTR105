@@ -5,7 +5,7 @@ Funkcijas saknes ir punkti, kuros funkcijas vērtība pieskaras vai šķērso X 
 
 **Dihotomijas metode**<sup>[1]</sup> ir funkcijas sakņu atrašanas metode, kas salīdzina funkcijas divu punktu vērtību reizinājumu zīmi, lai atrastu sakni. Funkcijas saknes precīzākai noteikšanai, tiek samazināts intervāls starp funkciju punktiem, kuros tiek rēķinātas šīs vērtības, līdz brīdim, kad sakne kļūst pozitīva (liecinot, ka abi punkti atrodas vienā saknes un X ass pusē).<sup>[2]</sup>
 
-Skat. ar Gnuplot rīku izveidoto grafiku, kurā attēlota funkcijaa cos(x/2)*cos(x/2)-0.5 un tās sakne intervālā [0;2].
+Skat. ar Gnuplot rīku izveidoto grafiku, kurā attēlota funkcija cos(x/2)*cos(x/2)-0.5 un tās sakne intervālā [0;2]:
 
 ![Alt text](roots.png)
 
