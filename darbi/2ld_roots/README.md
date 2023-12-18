@@ -38,8 +38,8 @@ Laboratorijas darbs - Dihotomijas metode, dod iespēju novērot matemātisku jē
 1. https://estudijas.rtu.lv/file.php/360800/RTR105_2019_2020_L18_20200118_14_50.pdf (18.12.23)
 1. Burden, R., Faires, J., & Burden, A. (2015). Numerical Analysis. Cengage Learning. (18.12.23)
 https://faculty.ksu.edu.sa/sites/default/files/numerical_analysis_9th.pdf (18.12.23)
-1. Saite uz attēlu: https://github.com/akiselevskis/RTR105/blob/main/darbi/2ld_roots/roots.png \
-   Saite uz kodu: https://github.com/akiselevskis/RTR105/blob/main/darbi/2ld_roots/roots.gp
-1. Saite uz attēlu: https://github.com/akiselevskis/RTR105/blob/main/darbi/2ld_roots/koda_izvade_roots.png \
-   Saite uz kodu: https://github.com/akiselevskis/RTR105/blob/main/darbi/2ld_roots/roots.c
+1. Saite uz attēlu: https://github.com/akiselevskis/RTR105/blob/main/darbi/2ld_roots/roots.png (18.12.23) \
+   Saite uz kodu: https://github.com/akiselevskis/RTR105/blob/main/darbi/2ld_roots/roots.gp (18.12.23)
+1. Saite uz attēlu: https://github.com/akiselevskis/RTR105/blob/main/darbi/2ld_roots/koda_izvade_roots.png (18.12.23) \
+   Saite uz kodu: https://github.com/akiselevskis/RTR105/blob/main/darbi/2ld_roots/roots.c (18.12.23)
 
