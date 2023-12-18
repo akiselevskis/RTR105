@@ -1,7 +1,7 @@
     Artūrs Kiseļevskis RECVO1. grupa 18.12.2023
 # 2. Laboratorijas darbs - Dihotomijas metode
 ## Ievads
-Funkcijas saknes ir punkti, kuros funkcijas vērtība pieskaras vai šķērso X asi. Ass šķērsošanas gadījumā atklājas īpašība - ļoti tuvu punktu, kas atrodas pa kreisi un pa labi no šīs saknes, funkciju vērtībām būs atšķirīgas zīmes. Var secināt arī, ka šo funkciju vērtību reizinājums būs negatīvs skaitlis.
+Funkcijas saknes ir punkti, kuros funkcijas vērtība pieskaras vai šķērso X asi. Ass šķērsošanas gadījumā atklājas īpašība - ļoti tuvu punktu, kas atrodas pa kreisi un pa labi no šīs saknes, funkcijas vērtībām būs atšķirīgas zīmes. Var secināt arī, ka šo funkciju vērtību reizinājums būs negatīvs skaitlis.
 
 **Dihotomijas metode**<sup>[1]</sup> ir funkcijas sakņu atrašanas metode, kura salīdzina funkcijas divu punktu vērtību reizinājumu zīmi, lai atrastu sakni. Funkcijas saknes precīzākai noteikšanai, tiek samazināts intervāls starp funkciju punktiem, kuros tiek rēķinātas šīs vērtības, līdz brīdim, kad sakne kļūst pozitīva (liecinot, ka abi punkti atrodas vienā saknes un X ass pusē).<sup>[2]</sup>
 
