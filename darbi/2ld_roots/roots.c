@@ -30,7 +30,7 @@ int main(){
     funkcb = cos(b/2)*cos(b/2) - A;    
     if(funkca*funkcb>0){
         printf("Inervaalaa [%.2lf;%.2lf] cos(x/2)*cos(x/2)-%.2lf funkcijai ", a, b, A);
-        printf("saknju nav (vai tajaa ir paara saknju skaits)\n");
+        printf("saknju nav (vai tajaa ir paara saknju skaits).\n");
         printf("Funckijas veertiibu reizinaajums noraadiitaa intervaala taalaakajos punktos ir %lf.\n", funkca*funkcb);
         printf("Taa kaa reizinājums ir pozitiivs, tiek pieraadiits, ka abas funckijas atrodas vienaa X ass pusee \n");
         printf("vai arii sakne nekad neshkerso asi (tikai pieskaras).");
