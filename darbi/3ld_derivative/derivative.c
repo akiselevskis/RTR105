@@ -28,8 +28,8 @@ int main() {
     float a = 0., b = 2 * M_PI, x, delta_x = 1.e-2;
 
     pFile = fopen("derivative.dat", "w");
-    fprintf(pFile, "%9s %17s %14s", "x", "f(x)", "analitiskais f(x)'");
-    fprintf(pFile, "%9s %17s %14s\n", "skaitliskais f(x)'", "analitiskais f(x)''", "skaitliskais f(x)''");
+    fprintf(pFile, "%7s %14s %15s", "x", "f(x)", "an. f(x)'");
+    fprintf(pFile, "%12s %17s %14s\n", "sk. f(x)'", "an. f(x)''", "sk. f(x)''");
 
     x = a;
     while (x < b) {   

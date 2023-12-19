@@ -12,5 +12,8 @@ set yzeroaxis linetype -1
 #replot "derivative.dat" every ::1 using 1:3 with lines title "sin'(x) (finite difference)" #sinusa atvasinajums ar forward difference
 
 plot [0:2*pi] cos(x/2)*cos(x/2) title "cos(x/2)^2", \
-              "derivative.dat" every ::1 using 1:2 with lines title "cos(x/2)^2 (from file)", \
-               "derivative.dat" every ::1 using 1:3 with lines title "(cos(x/2)^2)' (finite difference)" #sinusa atvasinajums ar forward difference
+            "derivative.dat" every ::1 using 1:2 with lines title "cos(x/2)^2 (from file)", \
+            "derivative.dat" every ::1 using 1:3 with lines title "(cos(x/2)^2)' (finite difference)", \
+            "derivative.dat" every ::1 using 1:4 with lines title "tests", \
+            "derivative.dat" every ::1 using 1:5 with lines title "tests (finite difference)", \
+            "derivative.dat" every ::1 using 1:6 with lines title "tess (finite difference)"
