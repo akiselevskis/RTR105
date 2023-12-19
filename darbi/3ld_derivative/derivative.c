@@ -25,11 +25,16 @@ float skait_atv_2(float x, float delta_x) {
 }
 int main() {
     FILE *pFile;
-    float a = 0., b = 2 * M_PI, x, delta_x = 1.e-2;
-
+    float a, b, x, delta_x;
+    printf("Shii programma apreekina funkcijas cos(x/2)*cos(x/2) veertiibu un pirmo un otro atvasinaajumu (gan skaitliski, gan analiitiski) punktos\n");
+    printf("juusu izveeleetajaa intervaalaa un ar juusu izveeleetu soli.\n");
+    printf("Luudzu ievadīt izveeleeto intervaalu: ");
+    scanf("%lf %lf %lf", &a, &b);
+    printf("Luudzu ievadīt izveeleeto soli: ");
+    scanf("%lf", &delta_x);
     pFile = fopen("derivative.dat", "w");
     fprintf(pFile, "%7s %14s %15s", "x", "f(x)", "an. f(x)'");
-    fprintf(pFile, "%12s %17s %14s\n", "sk. f(x)'", "an. f(x)''", "sk. f(x)''");
+    fprintf(pFile, "%12s %12s %11s\n", "sk. f(x)'", "an. f(x)''", "sk. f(x)''");
 
     x = a;
     while (x < b) {   
