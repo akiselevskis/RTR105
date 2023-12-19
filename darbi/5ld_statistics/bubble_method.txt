@@ -1,0 +1,68 @@
+ar char masīviem var stradat kaa maziem skaitliem
+https://www.programiz.com/c-programming/c-strings
+no mazākā uz liel\ako -> alfabeta seciba
+
+Jadabu no lietotaja teikums
+Jaiekarto augošā secība pēc alfabēta (ņemt vērā tikai punktus)
+PEC ASCII TABULAS. NEnem vera simbolus (izsledzot ascii) un pabridini lietotaju ka var rakstit angliski
+SAAkumā lielie burti, pec tam mazie (LIelajiem burtiem lielaka vertiba)
+1) Nosauc rindu
+2) Pasaki lielako
+3) Mazako
+
+Burbuļu metode - (grāmatā ir)
+
+Neoptimizēta
+7 8 5 6 6 3 6 4 4
+
+o1 < o2
+o1 > o2
+
+Katru reizi iet 9 reizes. 9^2 pārbaudes (81)
+
+Optimizēta
+(7 8) 5 6 6 3 6 4 4 ->
+7 (8 5) 6 6 3 6 4 4 ->
+7 5 (8 6) 6 3 6 4 4 ->
+7 5 6 (8 6) 3 6 4 4 ->
+7 5 6 6 (8 3) 6 4 4 ->
+7 5 6 6 3 (8 6) 4 4 ->
+7 5 6 6 3 6 (8 4) 4 ->
+7 5 6 6 3 6 4 (8 4) ->
+7 5 6 6 3 6 4 4 8
+
+Pirmo reizi pārbauda 9, bet katru reizi par vienu mazāk. (9*10)/2 reizes (45)
+C(2 no 9) = 9!/((9-2)!*2) = 45
+
+Bubble method - "lielākais burbulis aizpeldēs uz beigām!"
+Nenotiek lēkāšana, iet no sākuma uz beigām.
+
+3) Vidējo - saskaita un dala uz skaitu.
+(iegūsim double (decimālo) un jānoapaļo uz tuvāko char)
+
+4) Mediāna - sakārtotai secībai (dalit rindas videjos elementus).
+
+5) Moda. Tas kas parādās visbiežāk. Moda ir tas kas parādās vairāk par vienu reizi.
+Nepieņemt ka ja katrs parādās vienu reizi tad visas ir modas!!!!
+
+Pārbauda katru elementu. Pirmais ir moda. Ja nākošais ir vairāk, šis ir moda, bet ieprieksejais nav.
+Ielikt masīva rindā?
+
+VAI
+
+MAINIGAIS = CIK REIZES ATKARTOJAS SKAITLIS
+Un tad salīdzina mainīgos!
+
+3 4 4 5 6 6 6 7 8
+1 (3 -> 1 reize)
+    1 2 (aizmirstam par 3, 4 -> 2 reizes)
+        1 2 (neko nedaram
+            123 (6 -> 3 reizes)
+
+LABĀK:
+    Cik reizes mainigais? Piem. 3.
+    Ja elements ir mazak par 3 reizem, ignorēt
+    Parādās elements ar 3? Iegaumēt
+    Parādās elements ar vairāk par 3? Aizmirst iepriekšējos, jaunais skaits ir piem. 4.
+
+Šī ir laba    
