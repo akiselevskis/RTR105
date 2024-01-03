@@ -1,6 +1,7 @@
     Artūrs Kiseļevskis RECVO1. grupa 03.01.2024
 # 3. Laboratorijas darbs - Skaitliskā diferencēšana
 ## Ievads
+![Alt text](v65.jpg)
 Funkcijas atvasinājums<sup>[1]</sup> ir funkcijas vērtības izmaiņa atkarībā no bezgalīgi mazas izmaiņas funkcijas argumenta vērtībā. Tas parāda to, cik strauji izmainās funkcijas vērtība atkarībā no izmaiņas argumenta vērtībā. Ja funckijas vērtība aug - funkcijas atvasinājums ir pozitīvs, ja dilst - atvasinājums ir negatīvs un ja funkcijas vērtība ir paralēla x asij (ne dilst, ne aug) - atvasinājuma vērtība ir 0. Tas pats attiecas uz funckijas atvasinājuma un atvasinājuma atvasinājuma atkarību (otrās pakāpes atvasinājums un tālāk). Funkcijai nav atvasinājuma visos punktos, ja funkcija ir pārtraukta vai tai ir asi stūri (precīzu funkcijas atvasinājumu tajos punktos nav iespējams noteikt, jo funkcijas sastāv nemainās vienmērīgi).<sup>[2]</sup>
 
 Šajā laboratorijas darbā tiek pētīta un vizualizēta funkcijas cos(x/2)*cos(x/2) pirmās un otrās pakāpes atvasinājums gan ar skaitlisko, gan ar analītisko veidu, lietotāja noteiktā veidā.
