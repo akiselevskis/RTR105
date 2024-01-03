@@ -255,6 +255,19 @@ int main()
 ```
  ## 16. nodarbība - gnuplot
  ## 17. nodarbība - Teilora rindas
+ ## 18. nodarbība
+ ## 19. nodarbība
+ ## 20. nodarbība
+ ## 21. nodarbība
+ ## 12. nodarbība - Statistika
+ ```
+char str[100];
+ char *fgets(char *str, int n, stdin)
+///str ir norāde, kas norāda uz masīvu, kur atradīsies simbolu rinda.
+///n ir maksimālais elementu skaits (skaitot \n)
+///stdin izmanto, ja vēlas nolasīt informāciju no tastatūras. Var nolasīt arī no failiem.
+///fgets tiek terminēts pie \n vai pēc n-1 elementa nolasīšanas.
+```
  
 [^1]: Lapa izveidota 05.09.23. <br/>
 Informācija, lai noformētu lapu: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax.
