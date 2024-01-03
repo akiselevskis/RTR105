@@ -37,13 +37,13 @@ Funkcija tika palaista ar dažādām ievadītajām vērtībām un tad vizualizē
 
 *Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 6.28) un soļa 0.01.<sup>[1]</sup>*
 
-*![Alt text](piemers_2.png)
+![Alt text](piemers_2.png)
 
-Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 6.28) un soļa 1.<sup>[1]</sup>*
+*Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 6.28) un soļa 1.<sup>[1]</sup>*
 
-*![Alt text](piemers_3.png)
+![Alt text](piemers_3.png)
 
-Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 100) un soļa 0.1.<sup>[1]</sup>*
+*Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 100) un soļa 0.1.<sup>[1]</sup>*
 
 ## Secinājumi
 Laboratorijas darbs "Skaitliskā diferencēšana" ir labs ieskats atvasināšanas matemātiskajos principos un tās paskaidrošanai datoram saprotamā veidā. Laboratorijas darbs, ieskaitot programmu un vizualizāciju, tika veikts sekmīgi un pilda savas prasības. Darba laikā tika padziļinātas matemātiskās un analītiskās prasmes, kā arī zināšanas datorzinībās (it īpaši - darbs ar dokumentiem). 
