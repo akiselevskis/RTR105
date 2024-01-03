@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
-void nolase(char *teikums) { //nolasa lietotaaja ievadito teikumu un iznjem atstarpes un \n operatoru
+void nolase(char *teikums) {
     fgets(teikums, 150, stdin);
+
     int length = strlen(teikums);
     int j = 0;
+
     for (int i = 0; i < length; i++) {
         if (teikums[i] != ' ' && teikums[i] != '\n') {
             teikums[j++] = teikums[i];
@@ -36,7 +38,7 @@ int maxVertiba(char *teikums) {
 int main() {
     char teikums[150];
     printf("Shii programma panjems juusu ievadiito teikumu un izdos plashu informaciju par to.\n");
-    printf("Ludzu ievadiit teikumu(bez interpunkcijas, ja neveelaties lai to njem veeraa): ");
+    printf("Ludzu ievadiit teikumu: ");
     nolase(teikums);
     printf("Juusu ievadiitais teikums bez atstarpēm ir: %s\n", teikums);
     printf("Minimaalaa veertiiba ir %d ar simbolu %c\n", minVertiba(teikums), minVertiba(teikums));
