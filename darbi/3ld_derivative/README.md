@@ -35,15 +35,15 @@ Funkcija tika palaista ar dažādām ievadītajām vērtībām un tad vizualizē
 
 ![Alt text](piemers_1.png)
 
-*Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 6.28) un soļa 0.01.<sup>[1]</sup>*
+*Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 6.28) un soļa 0.01.<sup>[7]</sup>*
 
 ![Alt text](piemers_2.png)
 
-*Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 6.28) un soļa 1.<sup>[1]</sup>*
+*Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 6.28) un soļa 1.<sup>[8]</sup>*
 
 ![Alt text](piemers_3.png)
 
-*Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 100) un soļa 0.1.<sup>[1]</sup>*
+*Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 100) un soļa 0.1.<sup>[9]</sup>*
 
 ## Secinājumi
 Laboratorijas darbs "Skaitliskā diferencēšana" ir labs ieskats atvasināšanas matemātiskajos principos un tās paskaidrošanai datoram saprotamā veidā. Laboratorijas darbs, ieskaitot programmu un vizualizāciju, tika veikts sekmīgi un pilda savas prasības. Darba laikā tika padziļinātas matemātiskās un analītiskās prasmes, kā arī zināšanas datorzinībās (it īpaši - darbs ar dokumentiem). 
@@ -57,4 +57,6 @@ Laboratorijas darbs "Skaitliskā diferencēšana" ir labs ieskats atvasināšana
 1. Saite uz kodu: https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/derivative.c \
    Saite uz attēliem: https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/kods.png \
    https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/koda_turpinajums.png
-1. 
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/piemers_1.png
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/piemers_2.png
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/piemers_3.png
