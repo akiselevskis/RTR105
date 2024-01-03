@@ -51,12 +51,12 @@ Laboratorijas darbs "Skaitliskā diferencēšana" ir labs ieskats atvasināšana
 ## Atsauces un saites uz kodiem
 1. https://estudijas.rtu.lv/file.php/360800/RTR105_2019_2020_L19_20200118_14_50.pdf (03.01.24)
 1. https://mathworld.wolfram.com/Derivative.html (03.01.24)
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/derivative.dat
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/derivative.gp
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/derivative.png
-1. Saite uz kodu: https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/derivative.c \
-   Saite uz attēliem: https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/kods.png \
-   https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/koda_turpinajums.png
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/piemers_1.png
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/piemers_2.png
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/piemers_3.png
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/derivative.dat (03.01.24)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/derivative.gp (03.01.24)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/derivative.png (03.01.24)
+1. Saite uz kodu: https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/derivative.c (03.01.24) \
+   Saite uz attēliem: https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/kods.png (03.01.24) \
+   https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/koda_turpinajums.png (03.01.24)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/piemers_1.png (03.01.24)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/piemers_2.png (03.01.24)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/3ld_derivative/piemers_3.png (03.01.24)
