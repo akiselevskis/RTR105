@@ -34,12 +34,15 @@ Pirmās un otrās pakāpes pareizu darbību pierāda arī sakritība ar atvasin�
 Funkcija tika palaista ar dažādām ievadītajām vērtībām un tad vizualizēta, lai pārliecinātos par tās pareizu darbību. Lūk daži mēģinājumi:
 
 ![Alt text](piemers_1.png)
+
 *Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 6.28) un soļa 0.01.<sup>[1]</sup>*
 
 *![Alt text](piemers_2.png)
+
 Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 6.28) un soļa 1.<sup>[1]</sup>*
 
 *![Alt text](piemers_3.png)
+
 Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 100) un soļa 0.1.<sup>[1]</sup>*
 
 ## Secinājumi
