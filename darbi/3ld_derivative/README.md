@@ -1,20 +1,40 @@
-    Artūrs Kiseļevskis RECVO1. grupa 10.12.2023
+    Artūrs Kiseļevskis RECVO1. grupa 03.01.2024
 # 3. Laboratorijas darbs - Skaitliskā diferencēšana
 ## Ievads
+Funkcijas atvasinājums<sup>[1]</sup> ir funkcijas vērtības izmaiņa atkarībā no bezgalīgi mazas izmaiņas funkcijas argumenta vērtībā.<sup>[2]</sup> Tas parāda to, cik strauji izmainās funkcijas vērtība atkarībā no izmaiņas argumenta vērtībā. Ja funckijas vērtība aug - funkcijas atvasinājums ir pozitīvs, ja dilst - atvasinājums ir negatīvs un ja funkcijas vērtība ir paralēla x asij (ne dilst, ne aug) - atvasinājuma vērtība ir 0. Tas pats attiecas uz funckijas atvasinājuma un atvasinājuma atvasinājuma atkarību (otrās pakāpes atvasinājums un tālāk). Funkcijai nav atvasinājuma visos punktos, ja funkcija ir pārtraukta vai tai ir asi stūri (precīzu funkcijas atvasinājumu tajos punktos nav iespējams noteikt, jo funkcijas sastāv nemainās vienmērīgi).
+
+Šajā laboratorijas darbā tiek pētīta un vizualizēta funkcijas cos(x/2)*cos(x/2) pirmās un otrās pakāpes atvasinājums gan ar skaitlisko, gan ar analītisko veidu un vizualizēts rezultāts, lietotāja noteiktā veidā.
+
+Apskatītās atvasināšanas metodes:
+* Analītiskā metode - funckija tiek iepriekš atvasināta, izmantojot atvasināšanas formulas un likumus.
+* Skaitliskā metode - funkcijas tiek atvasināta pēc definīcijas, jeb (funkcija(x + x_izmaiņa) - funkcija(x)) / x_izmaiņa.
 
 
 *1. attēls - Riņķa līnijas laukuma estimācija ar kvadrātiem<sup>[1]</sup>*
 
 
 ## Programma
-
+Programma informē lietotāju par tās darbības principu un veic dialogu, pieprasot nepieciešamos mainīgos programmas darbībai - intervāla sākumpunktu, beigupunktu un soli (katra nākošā punkta attālumu). Programma tiek sadalīta vairākās atsevišķās funkcijās
 
 ## Datu analīze
+Salīdzinot datu izvades analītiskos un skaitliskos atvasinājumus var secināt, ka programma strādā kā paredzēts, jo pirmās un otrās kārtas atvasinājumu skaitlisko un analītisko atvasinājumu vērtības sakrīt pie dotās precizitātes, pierādot, ka programma strādā precīzi pie abām atvasināšanas metodēm.
+Pirmās un otrās pakāpes pareizu darbību pierāda arī sakritība ar atvasinājuma pazīmēm, kas tika raksturotas ievadā - funkcijas vērtības zīme (pozitīva, negatīva vai paralēla x asij) tieši ietekmē atvasinājuma monotonitāti (augošs, dilstošs vai 0). Funkcija ir nepārtraukta, kas nozīmē, ka atvasinājumi eksistē visos punktos (kas sakrīt ar vizualizāciju).
 
+Funkcija tika palaista ar dažādām ievadītajām vērtībām, lai pārliecinātos par tās pareizu darbību. Lūk dotie mēģinājumi:
+
+![Alt text](piemers_1.png)
+*Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 6.28) un soļa 0.01.<sup>[1]</sup>*
+
+*![Alt text](piemers_2.png)
+Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 6.28) un soļa 1.<sup>[1]</sup>*
+
+*![Alt text](piemers_3.png)
+Programmas Gnuplot vizualizācija pie ievadītā intervāla (0, 100) un soļa 0.1.<sup>[1]</sup>*
 
 ## Secinājumi
-
+Laboratorijas darbs "Skaitliskā diferencēšana" ir labs ieskats atvasināšanas matemātiskajos principos un tās paskaidrošanai datoram saprotamā veidā. Laboratorijas darbs, ieskaitot programmu un vizualizāciju, tika veikts sekmīgi un pilda savas prasības. Darba laikā tika padziļinātas matemātiskās un analītiskās prasmes, kā arī zināšanas datorzinībās (it īpaši - darbs ar dokumentiem). 
 
 ## Atsauces un saites uz kodiem
-1. 
+1. https://estudijas.rtu.lv/file.php/360800/RTR105_2019_2020_L19_20200118_14_50.pdf (03.01.24)
+1. https://mathworld.wolfram.com/Derivative.html (03.01.24)
 1. 
