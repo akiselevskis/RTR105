@@ -36,7 +36,7 @@ int main() {
     if (pFile == NULL){ //pārbaude vai fails ir ticis pareizi atvērts
         printf("Nevar nolasiit failu. Luudzam noverst kluudu.\n");
         return 1;
-        }
+    }
     printf("%7s %18s %19s", "x", "f(x)", "an. f(x)'"); //attēlo datus terminālī
     printf("%16s %16s %15s\n", "sk. f(x)'", "an. f(x)''", "sk. f(x)''");
     fprintf(pFile, "%7s %14s %15s", "x", "f(x)", "an. f(x)'"); //ievieto datus .dat failā

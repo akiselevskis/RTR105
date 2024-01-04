@@ -94,6 +94,8 @@ void moda(char *teikums) {
 }
 int main() {
     char teikums[150];
+    FILE *pFile;
+    pFile = fopen("statistics.dat", "w");
     printf("Shii programma panjems juusu ievadiito teikumu un izdos plashu informaciju par to.\n");
     printf("Ludzams neizmantot interpunkciju un simbolus, ja neveelaties lai programma to njem veeraa.\n");
     printf("Ludzu ievadiit teikumu: ");
@@ -120,6 +122,8 @@ int main() {
     printf("ASCII vērtības sakārtotajam teikumam: ");
     for (int i = 0; i < strlen(teikums); i++) {
         printf("%d ", teikums[i]);
+        fprintf(pFile,"%c\t%d\n",teikums[i]);
     }
+    
     return 0;
 }
