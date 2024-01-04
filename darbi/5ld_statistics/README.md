@@ -11,6 +11,10 @@
 
 ## Datu analīze
 
+Programma tika palaista un pārbaudīta ar pieciem dažādiem scenārijiem. Lūk mēģinājumi:
+
+*Koda izvade ar ievades teikumu: <sup>[1]</sup>*
+
 
 ## Secinājumi
 

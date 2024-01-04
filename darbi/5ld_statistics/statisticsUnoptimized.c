@@ -99,15 +99,11 @@ int main() {
     printf("Ludzu ievadiit teikumu: ");
     nolase(teikums);
     printf("Juusu ievadiitais teikums bez atstarpēm ir: %s\n", teikums);
-    int min = minVertiba(teikums);
-    printf("Minimaalaa veertiiba ir %d ar simbolu %c\n", min, min);
-    int max = maxVertiba(teikums);
-    printf("Maksimaalaa veertiiba ir %d ar simbolu %c\n", max, max);
-    double vid = vidVertiba(teikums);
-    printf("Videejaa veertiiba ir %.lf, kas reprezentē ASCII simbolu %c\n", vid, (char)vid);
+    printf("Minimaalaa veertiiba ir %d ar simbolu %c\n", minVertiba(teikums), minVertiba(teikums));
+    printf("Maksimaalaa veertiiba ir %d ar simbolu %c\n", maxVertiba(teikums), maxVertiba(teikums));
+    printf("Videejaa veertiiba ir %.lf, kas reprezentē ASCII simbolu %c\n", vidVertiba(teikums), (char)vidVertiba(teikums));
     bubbleSort(teikums); //teikums tiek pārkārtots augošā secībā
-    double med = mediana(teikums);
-    printf("Simbolu mediana ir %.lf, kas reprezentē ASCII simbolu %c\n", med, (char)med);
+    printf("Simbolu mediana ir %.lf, kas reprezentē ASCII simbolu %c\n", mediana(teikums), (char)mediana(teikums));
     moda(teikums);
     //printf("Minimaalaa veertiiba ir %d ar simbolu %c\n", teikums[0], teikums[0]);
     //printf("Minimaalaa veertiiba ir %d ar simbolu %c\n", teikums[strlen(teikums)-1], teikums[strlen(teikums)-1]);
