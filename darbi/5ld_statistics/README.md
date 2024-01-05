@@ -11,9 +11,9 @@ Laboratorijas darbā aplūkotie datu analīzes jēdzieni:
 * mediāna - sakārtojot vērtības augošā secībā, vidējais elements (ja ir pāra skaits elementu, tad divu vidējo elementu summa dalīta ar divi),
 * moda - viezbiežāk sastopamais vai sastopamie elementi.<sup>[2]</sup>
 
-## Programma<sup>[3]</sup>
+## Programma
 
-Programma izskaidro tās darbību un pielietojumu un veic dialogu ar lietotāju, lai iegūtu tai nepieciešamās vērtības. Lietotājs var ievadīt jebkuru teikumu vai simbolu rindu (ar vai bez atstarpēm un ar mazajiem vai lielajiem burtiem). Programma nolasa visus simbolus līdz tiek nospiesta poga "Enter", kas pārtrauc datu ievadi.<sup>[4]</sup> Programma noņem atstarpes un rindas beigu simbolu un atdod simbolu rindu lietotājam, lai var pārliecināties, ka tā strādā kā paredzēts.
+Programma<sup>[3]</sup> izskaidro tās darbību un pielietojumu un veic dialogu ar lietotāju, lai iegūtu tai nepieciešamās vērtības. Lietotājs var ievadīt jebkuru teikumu vai simbolu rindu (ar vai bez atstarpēm un ar mazajiem vai lielajiem burtiem). Programma nolasa visus simbolus līdz tiek nospiesta poga "Enter", kas pārtrauc datu ievadi.<sup>[4]</sup> Programma noņem atstarpes un rindas beigu simbolu un atdod simbolu rindu lietotājam, lai var pārliecināties, ka tā strādā kā paredzēts.
 
 Programma sāk savu galveno darbību - analizē un sistemātiski sakārto datus, pēc ievadā paskaidrotajām statistikas metodēm. Katra atsevišķā darbība tiek atdalīta atsevišķā funkcijā, lai paturētu programmas pārskatāmību un novērstu apgrūtinošu daudzumu mainīgo izmantošanu. Vietās, kur atkārtoti jāattēlo tā pati informācija vairākas reizes - funkcijas vērtība tiek saglabāta mainīgajā ar intuitīvu nosaukumu, lai novērstu atkārtojošas programmas darbības un samazinātu programmas domāšanas laiku.
 
