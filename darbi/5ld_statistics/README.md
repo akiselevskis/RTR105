@@ -69,16 +69,16 @@ Laboratorijas darbs - "Skaitļu kopas kārtošana un statistika" parāda statist
 
 ## Atsauces un saites uz kodiem
 1. https://estudijas.rtu.lv/file.php/360800/RTR105_2019_2020_L22_20200118_14_51.pdf (06.01.24)
-1. https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/mean-median-basics/a/mean-median-and-mode-review
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/statistics.c
-1. https://cplusplus.com/reference/cstdio/fgets/
-1. https://www.geeksforgeeks.org/bubble-sort/
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/statistics.dat
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/statistics.gp
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/histogramma.png
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/Output_1.png
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/piemers_1.png
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/Output_2.png
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/piemers_2.png
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/Output_3.png
-1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/piemers_3.png
+1. https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/mean-median-basics/a/mean-median-and-mode-review (06.01.24)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/statistics.c (06.01.24)
+1. https://cplusplus.com/reference/cstdio/fgets/ (06.01.24)
+1. https://www.geeksforgeeks.org/bubble-sort/ (06.01.24)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/statistics.dat (06.01.24)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/statistics.gp (06.01.24)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/histogramma.png (06.01.24)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/Output_1.png (06.01.24)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/piemers_1.png (06.01.24)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/Output_2.png (06.01.24)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/piemers_2.png (06.01.24)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/Output_3.png (06.01.24)
+1. https://github.com/akiselevskis/RTR105/blob/main/darbi/5ld_statistics/piemers_3.png (06.01.24)
