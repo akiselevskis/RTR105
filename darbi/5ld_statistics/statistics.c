@@ -83,13 +83,13 @@ void moda(char *teikums) {
         }
     }
     if(maksCount==1){
-        printf("Teikumam nav modas, jo visi simboli parādās tieši 1 reizi.\n");
+        printf("Teikumam nav modas, jo visi simboli paraadaas tieshi 1 reizi.\n");
     }else{
     printf("Moda ir");
     for (int i = 0; i < modaSkaits; i++) {
         printf(" %c", modaSimboli[i]);
     }
-    printf(" ar %d sastopamībām\n", maksCount);
+    printf(" ar %d sastopamiibaam\n", maksCount);
     }
 }
 int main() {
@@ -100,16 +100,16 @@ int main() {
     printf("Ludzams neizmantot interpunkciju un simbolus, ja neveelaties lai programma to njem veeraa.\n");
     printf("Ludzu ievadiit teikumu: ");
     nolase(teikums);
-    printf("Juusu ievadiitais teikums bez atstarpēm ir: %s\n", teikums);
+    printf("Juusu ievadiitais teikums bez atstarpeem ir: %s\n", teikums);
     int min = minVertiba(teikums);
     printf("Minimaalaa veertiiba ir %d ar simbolu %c\n", min, min);
     int max = maxVertiba(teikums);
     printf("Maksimaalaa veertiiba ir %d ar simbolu %c\n", max, max);
     double vid = vidVertiba(teikums);
-    printf("Videejaa veertiiba ir %.lf, kas reprezentē ASCII simbolu %c\n", vid, (char)vid);
+    printf("Videejaa veertiiba ir %.lf, kas reprezentee ASCII simbolu %c\n", vid, (char)vid);
     bubbleSort(teikums); //teikums tiek pārkārtots augošā secībā
     double med = mediana(teikums);
-    printf("Simbolu mediana ir %.lf, kas reprezentē ASCII simbolu %c\n", med, (char)med);
+    printf("Simbolu mediana ir %.lf, kas reprezentee ASCII simbolu %c\n", med, (char)med);
     moda(teikums);
     //printf("Minimaalaa veertiiba ir %d ar simbolu %c\n", teikums[0], teikums[0]);
     //printf("Minimaalaa veertiiba ir %d ar simbolu %c\n", teikums[strlen(teikums)-1], teikums[strlen(teikums)-1]);
@@ -118,12 +118,12 @@ int main() {
     Šīs metodes netiek izmantotas, lai parādītu kā izdarīt vēlamās darbības ar citām funkcijām.
     Vairāki uzdevuma izpildes veidi dod iespēju koda darbības pārbaudei.
     */
-    printf("Teikums ar simboliem sakartotiem augošā secībā pēc to ASCII vērtībām: %s\n", teikums);
-    printf("ASCII vērtības sakārtotajam teikumam: ");
+    printf("Teikums ar simboliem sakartotiem augoshaa seciibaa peec to ASCII veertiibaam: %s\n", teikums);
+    printf("ASCII veertiibas sakaartotajam teikumam: ");
     for (int i = 0; i < strlen(teikums); i++) {
         printf("%d ", teikums[i]);
-        fprintf(pFile,"%c\t%d\n",teikums[i]);
+        fprintf(pFile,"%c\t%d\n",teikums[i], teikums[i]);
     }
-    
+    fclose(pFile);
     return 0;
 }
