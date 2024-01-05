@@ -8,7 +8,7 @@ Laboratorijas darbā aplūkotie datu analīzes jēdzieni:
 * minimālā vērtība - mazākā no vērtībām, 
 * maksimālā vērtība - lielākā no vērtībām, 
 * vidējais aritmētiskais lielums - vērtību summa dalīta ar vērtību skaitu,
-* mediāna - sakārtojot vērtības augošā secībā, vidējais elements (ja ir pāra skaits elementu, tad vidējo divu elementu summa dalīta ar divi),
+* mediāna - sakārtojot vērtības augošā secībā, vidējais elements (ja ir pāra skaits elementu, tad divu vidējo elementu summa dalīta ar divi),
 * moda - viezbiežāk sastopamais vai sastopamie elementi.<sup>[2]</sup>
 
 ## Programma<sup>[3]</sup>
